@@ -30,9 +30,8 @@ desig=pd.read_excel('dados_dashboard.xlsx', sheet_name="Desigualdade")
 with tab1:
     ...
 with tab2:
-    fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %")
     #Primeiro grafico
-    fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %", color="red")
+    fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %")
     fig.update_layout(
     title="Taxa de Criação de Empregos (JC)- %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
