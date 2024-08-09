@@ -3,7 +3,16 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.image("gape.png")
+
+
+st.set_page_config(
+        
+	layout = 'wide',
+        
+	initial_sidebar_state = 'collapsed' 
+)
+
+st.image("gape.png", width=400)
 
 tab1, tab2, tab3, tab4 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade"])
 tab1.subheader("Inflação - 2020 a 2024")
@@ -53,30 +62,56 @@ with tab2:
     fig7.update_layout(
             title="Construção Civil - NEG"
         )
+    fig8 = px.line(criac_emp, x='Ano', y="Comércio - NEG")
+    fig8.update_layout(
+            title="Comércio - NEG"
+        )
+    fig9 = px.line(criac_emp, x='Ano', y="Serviços - NEG")
+    fig9.update_layout(
+            title="Serviços - NEG"
+        )
+    fig10 = px.line(criac_emp, x='Ano', y="Administração Pública - NEG")
+    fig10.update_layout(
+            title="Administração Pública - NEG"
+        )
+    fig11 = px.line(criac_emp, x='Ano', y="Agropecuária, Extração Vegetal, Caça e Pesca - NEG")
+    fig11.update_layout(
+            title="Agropecuária, Extração Vegetal, Caça e Pesca - NEG"
+        )
+
+  
     
 
 
-    st.plotly_chart(fig)
-    st.write("Comentários sobre o gráfico 1")
-    st.plotly_chart(fig2)
-    st.write("Comentários sobre o gráfico 2")
-    st.plotly_chart(fig3)
-    st.write("Comentários sobre o gráfico 3")
+    a1,a2=st.columns(2)
 
-a1,a2=st.columns(2)
-with a1:
-    st.plotly_chart(fig4)
-    st.write("Comentários sobre o gráfico 4")
-with a2:
-    st.plotly_chart(fig5)
-    st.write("Comentários sobre o gráfico 5")   
-b1,b2=st.columns(2)
-with b1:
-    st.plotly_chart(fig6)
-    st.write("Comentários sobre o gráfico 6")   
-with b2:
-    st.plotly_chart(fig7)
-    st.write("Comentários sobre o gráfico 7")
+    
+    with a1:
+        st.plotly_chart(fig3)
+        st.write("Comentários sobre o gráfico 3")
+        st.plotly_chart(fig)
+        st.write("Comentários sobre o gráfico 1")
+        st.plotly_chart(fig2)
+        st.write("Comentários sobre o gráfico 2")
+        st.plotly_chart(fig4)
+        st.write("Comentários sobre o gráfico 4")
+        st.plotly_chart(fig5)
+        st.write("Comentários sobre o gráfico 5") 
+        st.plotly_chart(fig6)
+        st.write("Comentários sobre o gráfico 6")   
+    with a2:
+        
+        st.plotly_chart(fig7)
+        st.write("Comentários sobre o gráfico 7")
+        st.plotly_chart(fig8)
+        st.write("Comentários sobre o gráfico 8")   
+        st.plotly_chart(fig9)
+        st.write("Comentários sobre o gráfico 9")
+        st.plotly_chart(fig10)
+        st.write("Comentários sobre o gráfico 10")   
+        st.plotly_chart(fig11)
+        st.write("Comentários sobre o gráfico 11")
+    
 
         
     
