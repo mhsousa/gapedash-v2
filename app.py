@@ -59,7 +59,7 @@ with tab2:
     )
 	
     fig2.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig2.update_yaxes(title_text="Taxa de Criação de Empregos (%)", showgrid=True, gridcolor='LightBlue', range=[0, 10])
+    #fig2.update_yaxes(title_text="Taxa de Criação de Empregos (%)", showgrid=True, gridcolor='LightBlue', range=[0, 10])
     fig2.add_hline(y=5, line_dash="dash", line_color="green")
     fig2.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
