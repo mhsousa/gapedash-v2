@@ -31,8 +31,22 @@ with tab1:
     ...
 with tab2:
     fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %")
+    #Primeiro grafico
+    fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %", color="red")
     fig.update_layout(
-        title="Taxa de Criação de Empregos (JC)- %")
+    title="Taxa de Criação de Empregos (JC)- %",
+    font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
+    margin=dict(l=50, r=50, b=100, t=100, pad=4),
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0.2)',
+    legend=dict(x=0, y=1, orientation='h')
+    )
+
+    fig.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig.update_yaxes(title_text="Taxa de Criação de Empregos (%)", showgrid=True, gridcolor='LightBlue', range=[0, 10])
+
+    fig.add_hline(y=5, line_dash="dash", line_color="green", annotation_text="Meta")
+    fig.update_traces(mode='lines+markers', marker=dict(size=12, color='DarkSlateGrey'))
 
 
     fig2 = px.line(criac_emp, x='Ano', y="Taxa de Destruição de Empregos (JD)- %")
