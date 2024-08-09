@@ -37,7 +37,7 @@ with tab2:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     #paper_bgcolor='rgba(0,0,0,0)',
-    plot_bgcolor='rgba(0,0,0,0.2)',
+    #plot_bgcolor='rgba(0,0,0,0.2)',
     legend=dict(x=0, y=1, orientation='h')
     )
 
