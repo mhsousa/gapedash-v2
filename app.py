@@ -12,6 +12,7 @@ st.set_page_config(
 	initial_sidebar_state = 'collapsed' 
 )
 im1,im2,im3,im4,im5=st.columns(5)
+
 with im3:
 	st.image("gape.png", width=400)
 
@@ -40,20 +41,29 @@ with tab2:
     #plot_bgcolor='rgba(0,0,0,0.2)',
     legend=dict(x=0, y=1, orientation='h')
     )
-
+	
     fig.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
     #fig.update_yaxes(title_text="Taxa de Criação de Empregos (%)", showgrid=True, gridcolor='LightBlue', range=[0, 10])
-
     fig.add_hline(y=5, line_dash="dash", line_color="green")
     fig.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
-
+    #Segundo grafico
     fig2 = px.line(criac_emp, x='Ano', y="Taxa de Destruição de Empregos (JD)- %")
     fig2.update_layout(
-            title="Taxa de Destruição de Empregos (JD)- %"
-      
-        )
+    title="Taxa de Destruição de Empregos (JD)- %",
+    font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
+    margin=dict(l=50, r=50, b=100, t=100, pad=4),
+    #paper_bgcolor='rgba(0,0,0,0)',
+    #plot_bgcolor='rgba(0,0,0,0.2)',
+    legend=dict(x=0, y=1, orientation='h')
+    )
+	
+    fig2.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig2.update_yaxes(title_text="Taxa de Criação de Empregos (%)", showgrid=True, gridcolor='LightBlue', range=[0, 10])
+    fig2.add_hline(y=5, line_dash="dash", line_color="green")
+    fig2.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
+    #Terceiro grafico
     fig3 = px.line(criac_emp, x='Ano', y="Taxa de Variação Líquida de Empregos (NEG)- %")
     fig3.update_layout(
             title="Taxa de Variação Líquida de Empregos (NEG)- %"
