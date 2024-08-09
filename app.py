@@ -1,0 +1,89 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+
+st.image("gape.png")
+
+tab1, tab2, tab3, tab4 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade"])
+tab1.subheader("Inflação - 2020 a 2024")
+tab2.subheader("Emprego - 2001 a 2018")
+tab3.subheader("Renda - 2012 a 2023")
+tab4.subheader("Desigualdade - 2012 a 2023")
+
+criac_emp=pd.read_excel('dados_dashboard.xlsx', sheet_name="Criacao_Empreg__Formais_MA", skiprows=1)
+inf_mens=pd.read_excel('dados_dashboard.xlsx', sheet_name="Inflação_Mensal_Slz", skiprows=1)
+rend_hab=pd.read_excel('dados_dashboard.xlsx', sheet_name="Rend_hab_medio_MA", skiprows=2)
+desoc=pd.read_excel('dados_dashboard.xlsx', sheet_name="Desocupacao_Tx_Comb__MA", skiprows=2)
+desig=pd.read_excel('dados_dashboard.xlsx', sheet_name="Desigualdade")
+
+with tab1:
+    ...
+with tab2:
+    fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %")
+    fig.update_layout(
+        title="Taxa de Criação de Empregos (JC)- %")
+
+
+    fig2 = px.line(criac_emp, x='Ano', y="Taxa de Destruição de Empregos (JD)- %")
+    fig2.update_layout(
+            title="Taxa de Destruição de Empregos (JD)- %"
+      
+        )
+
+    fig3 = px.line(criac_emp, x='Ano', y="Taxa de Variação Líquida de Empregos (NEG)- %")
+    fig3.update_layout(
+            title="Taxa de Variação Líquida de Empregos (NEG)- %"
+        )
+
+    fig4 = px.line(criac_emp, x='Ano', y="Extrativa Mineral - NEG")
+    fig4.update_layout(
+            title="Extrativa Mineral - NEG"
+        )
+
+    fig5 = px.line(criac_emp, x='Ano', y="Indústria de Transformação - NEG")
+    fig5.update_layout(
+            title="Indústria de Transformação - NEG"
+        )
+    fig6 = px.line(criac_emp, x='Ano', y="Servicos Industriais de Utilidade Pública - NEG")
+    fig6.update_layout(
+            title="Servicos Industriais de Utilidade Pública - NEG"
+        )
+    fig7 = px.line(criac_emp, x='Ano', y="Construção Civil - NEG")
+    fig7.update_layout(
+            title="Construção Civil - NEG"
+        )
+    
+
+
+    st.plotly_chart(fig)
+    st.write("Comentários sobre o gráfico 1")
+    st.plotly_chart(fig2)
+    st.write("Comentários sobre o gráfico 2")
+    st.plotly_chart(fig3)
+    st.write("Comentários sobre o gráfico 3")
+
+a1,a2=st.columns(2)
+with a1:
+    st.plotly_chart(fig4)
+    st.write("Comentários sobre o gráfico 4")
+with a2:
+    st.plotly_chart(fig5)
+    st.write("Comentários sobre o gráfico 5")   
+b1,b2=st.columns(2)
+with b1:
+    st.plotly_chart(fig6)
+    st.write("Comentários sobre o gráfico 6")   
+with b2:
+    st.plotly_chart(fig7)
+    st.write("Comentários sobre o gráfico 7")
+
+        
+    
+
+with tab3:
+    st.write("Renda")
+
+
+with tab4:
+    st.write("Desigualdade")
