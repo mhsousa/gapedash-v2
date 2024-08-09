@@ -45,7 +45,7 @@ with tab2:
     #fig.update_yaxes(title_text="Taxa de Criação de Empregos (%)", showgrid=True, gridcolor='LightBlue', range=[0, 10])
 
     fig.add_hline(y=5, line_dash="dash", line_color="green")
-    fig.update_traces(mode='lines+markers', marker=dict(size=12, color='DarkSlateGrey'))
+    fig.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
 
     fig2 = px.line(criac_emp, x='Ano', y="Taxa de Destruição de Empregos (JD)- %")
