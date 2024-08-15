@@ -52,7 +52,7 @@ with tab1:
     legend=dict(x=0, y=1, orientation='h'))
     fig15.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig15.add_hline(y=1, line_dash="dash", line_color="blue")
-    st.plotly_chart(fig13)
+    st.plotly_chart(fig15)
     st.write("Comentários sobre o gráfico 15")
 
     #Gráfico 14
@@ -78,7 +78,7 @@ with tab1:
     legend=dict(x=0, y=1, orientation='h'))
     fig16.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig16.add_hline(y=1, line_dash="dash", line_color="blue")
-    st.plotly_chart(fig14)
+    st.plotly_chart(fig16)
     st.write("Comentários sobre o gráfico 16")
 
 
