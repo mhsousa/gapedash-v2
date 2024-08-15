@@ -46,7 +46,7 @@ with tab1:
     fig15 = go.Figure()
     fig15.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Habitação"], name="Habitação"))
     fig15.update_layout(
-    title="Impacto das desoesas com a habitação na Inflação nde São Luís - MA.",
+    title="Impacto das desoesas com a habitação na Inflação de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
