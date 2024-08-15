@@ -270,6 +270,7 @@ with tab3:
     fig12.update_layout(title="Evolução do Rendimento Real Habitual Médio em Número índice (1º Trimestre de 2012=100)", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig12.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig12.add_hline(y=1, line_dash="dash", line_color="green")
+    fig12.update_layout(yaxis_range=[90,130])
     fig12.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig12.update_layout( 
         yaxis2=dict(
