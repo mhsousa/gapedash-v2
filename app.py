@@ -13,7 +13,7 @@ st.set_page_config(
 )
 im1,im2,im3,im4,im5, im6, im7=st.columns(7)
 
-with im4:
+with im3:
 	st.image("gape.png", width=400)
 
 tab1, tab2, tab3, tab4 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade"])
