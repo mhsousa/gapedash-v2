@@ -302,7 +302,7 @@ with tab4:
     fig15 = go.Figure()
     fig15.add_trace(go.Scatter(x=desig['Trimestre'], y=desig["Índice GINI da renda domiciliar per capta"], name="Índice GINI da renda domiciliar per capta"))
     fig15.update_layout(
-    title="Desigualdade de Renda no Maranhão (Índice FINI da renda domiciliar per-capta por trimestre)",
+    title="Desigualdade de Renda no Maranhão (Índice GINI da renda domiciliar per-capta por trimestre)",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=0, orientation='h')
@@ -317,7 +317,7 @@ with tab4:
     fig18 = go.Figure()
     fig18.add_trace(go.Scatter(x=desig['Trimestre'], y=desig["GINI média móvel"], name="GINI média móvel"))
     fig18.update_layout(
-    title="Desigualdade de Renda no Maranhão (Índice FINI - Média Móvel, MM=3T)",
+    title="Desigualdade de Renda no Maranhão (Índice GINI - Média Móvel, MM=3T)",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=0, orientation='h')
