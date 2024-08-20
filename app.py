@@ -76,7 +76,6 @@ with tab1:
 
     st.plotly_chart(fig13)
     st.markdown("""
-	<h2 style='color: #4682B4;'>Análise Detalhada</h2>
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
 	    As vendas do produto X apresentaram um crescimento constante ao longo do ano. 
 	    No entanto, houve uma leve queda nas vendas do produto Y no último trimestre.
