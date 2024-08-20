@@ -28,6 +28,38 @@ rend_hab=pd.read_excel('dados_dashboard.xlsx', sheet_name="Rend_hab_medio_MA", s
 desoc=pd.read_excel('dados_dashboard.xlsx', sheet_name="Desocupacao_Tx_Comb__MA", skiprows=1)
 desig=pd.read_excel('dados_dashboard.xlsx', sheet_name="Desigualdade")
 
+def add_hline_with_annotation(fig, y_value, text, line_color='red', line_dash='dash', line_width=2,
+                              annotation_position='top' , pos=0):
+    """
+    Adiciona uma linha horizontal com uma anotação acima dela em um gráfico Plotly.
+
+    Args:
+        fig: Objeto Figure do Plotly.
+        y_value: Valor y da linha horizontal.
+        text: Texto da anotação.
+        line_color: Cor da linha (default: 'red').
+        line_dash: Estilo da linha (default: 'dash').
+        line_width: Espessura da linha (default: 2).
+        annotation_position: Posição da anotação ('top' ou 'bottom').
+
+    Returns:
+        O objeto Figure com a linha horizontal e a anotação adicionadas.
+    """
+
+    fig.add_hline(y=y_value, line_color=line_color, line_dash=line_dash, line_width=line_width)
+
+    fig.add_annotation(
+        x=0.0,  # Centralizado no eixo x
+        y=y_value+pos,
+        xref="paper",
+        yref="y",
+        text=text,
+        showarrow=False,
+        font=dict(size=10, color="black")
+    )
+
+    return fig
+
 with tab1:
     #Gráfico 13
     fig13 = go.Figure()
@@ -37,8 +69,10 @@ with tab1:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
+    fig13.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig13.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig13.add_hline(y=1, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig13,y_value=inf_mens["Inflação Mensal - Slz (%)"].median(),text="%.3f" % round(inf_mens["Inflação Mensal - Slz (%)"].median(),3), line_color="blue", pos=0.2)
+
     st.plotly_chart(fig13)
     st.write("Comentários sobre o gráfico 13")
 
@@ -46,12 +80,13 @@ with tab1:
     fig15 = go.Figure()
     fig15.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Habitação"], name="Habitação"))
     fig15.update_layout(
-    title="Impacto das despesas com a habitação na Inflação de São Luís - MA.",
+    title="Impacto das despesas com a Habitação na Inflação de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig15.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig15.add_hline(y=1, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig15,y_value=inf_mens["Habitação"].median(),text=str(round(inf_mens["Habitação"].median(),3)), line_color="blue",pos=0.1)
+    fig15.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     st.plotly_chart(fig15)
     st.write("Comentários sobre o gráfico 15")
 
@@ -59,12 +94,13 @@ with tab1:
     fig14 = go.Figure()
     fig14.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Saúde e cuidados pessoais"], name="Saúde e cuidados pessoais"))
     fig14.update_layout(
-    title="Impacto das despesas com Transportes na Inflação de São Luís - MA.",
+    title="Impacto das despesas com Saúde e Cuidados Pessoais na Inflação de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig14.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig14.add_hline(y=1, line_dash="dash", line_color="blue")
+    fig14.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    add_hline_with_annotation(fig14,y_value=inf_mens["Habitação"].median(),text=str(round(inf_mens["Habitação"].median(),3)), line_color="blue",pos=0.05)
     st.plotly_chart(fig14)
     st.write("Comentários sobre o gráfico 14")
 
@@ -72,12 +108,13 @@ with tab1:
     fig16 = go.Figure()
     fig16.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Transportes"], name="Transportes"))
     fig16.update_layout(
-    title="Impacto das despesas com Saúde e cuidados pessoais na Inflação de São Luís - MA.",
+    title="Impacto das despesas com Transporte na Inflação de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig16.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig16.add_hline(y=1, line_dash="dash", line_color="blue")
+    fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    add_hline_with_annotation(fig16,y_value=inf_mens["Habitação"].median(),text=str(round(inf_mens["Habitação"].median(),3)), line_color="blue",pos=0.15)    
     st.plotly_chart(fig16)
     st.write("Comentários sobre o gráfico 16")
 
@@ -89,12 +126,12 @@ with tab2:
     #Primeiro grafico 
     fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %")
     fig.update_layout(
-    title="Taxa de Variação Líquida de Criação de Empregos (JC) em São Luís - MA - %",
+    title="Taxa Bruta de Criação de Empregos (JC) em São Luís - MA - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))  
     fig.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig,y_value=criac_emp["Taxa de Criação de Empregos (JC)- %"].median(),text=str(round(criac_emp["Taxa de Criação de Empregos (JC)- %"].median(),3)), line_color="blue", pos=1)
     fig.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
     #Segundo grafico
@@ -105,7 +142,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig2.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig2.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig2,y_value=criac_emp["Taxa de Destruição de Empregos (JD)- %"].median(),text=str(round(criac_emp["Taxa de Destruição de Empregos (JD)- %"].median(),3)), line_color="blue", pos=1)
     fig2.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
     #Terceiro grafico
@@ -116,7 +153,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig3.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig3.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig3,y_value=criac_emp["Taxa de Variação Líquida de Empregos (NEG)- %"].median(),text=str(round(criac_emp["Taxa de Variação Líquida de Empregos (NEG)- %"].median(),3)), line_color="blue", pos=2)
     fig3.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
     #Quarto Gráfico
@@ -126,9 +163,8 @@ with tab2:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
-	
     fig4.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig4.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig4,y_value=criac_emp["Extrativa Mineral - NEG"].median(),text=str(round(criac_emp["Extrativa Mineral - NEG"].median(),3)), line_color="blue", pos=0.007)
     fig4.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
     #Quinto Gráfico
@@ -138,9 +174,8 @@ with tab2:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
-	
     fig5.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig5.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig5,y_value=criac_emp["Indústria de Transformação - NEG"].median(),text="%.3f" % round(criac_emp["Indústria de Transformação - NEG"].median(),3), line_color="blue", pos=0.1)
     fig5.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
     
@@ -152,7 +187,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig6.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig6.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig6,y_value=criac_emp["Servicos Industriais de Utilidade Pública - NEG"].median(),text=str(round(criac_emp["Servicos Industriais de Utilidade Pública - NEG"].median(),3)), line_color="blue", pos=0.07)
     fig6.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
     #Sétimo grafico
@@ -163,7 +198,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig7.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig7.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig7,y_value=criac_emp["Construção Civil - NEG"].median(),text=str(round(criac_emp["Construção Civil - NEG"].median(),3)), line_color="blue", pos=0.2)
     fig7.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
     #Oitavo gráfico
@@ -174,7 +209,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig8.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig8.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig8,y_value=criac_emp["Comércio - NEG"].median(),text=str(round(criac_emp["Comércio - NEG"].median(),3)), line_color="blue", pos=0.2)
     fig8.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
     #Nono gráfico
@@ -185,7 +220,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig9.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig9.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig9,y_value=criac_emp["Serviços - NEG"].median(),text=str(round(criac_emp["Serviços - NEG"].median(),3)), line_color="blue", pos=1)
     fig9.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
     #Decimo gráfico
@@ -194,11 +229,9 @@ with tab2:
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor de Administração Pública - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
-    legend=dict(x=0, y=1, orientation='h')
-    )
-	
+    legend=dict(x=0, y=1, orientation='h'))
     fig10.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig10.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig10,y_value=criac_emp["Administração Pública - NEG"].median(),text=str(round(criac_emp["Administração Pública - NEG"].median(),3)), line_color="blue", pos=1)
     fig10.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
     #Décimo primeiro grafico
@@ -207,11 +240,9 @@ with tab2:
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor de Agropecuária, Extração Vegetal, Caça e Pesca no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
-    legend=dict(x=0, y=1, orientation='h')
-    )
-	
+    legend=dict(x=0, y=1, orientation='h'))
     fig11.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig11.add_hline(y=5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig11,y_value=criac_emp["Agropecuária, Extração Vegetal, Caça e Pesca - NEG"].median(),text=str(round(criac_emp["Agropecuária, Extração Vegetal, Caça e Pesca - NEG"].median(),3)), line_color="blue", pos=0.15)
     fig11.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
 
@@ -222,9 +253,9 @@ with tab2:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
-	
     fig16.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig16.add_hline(y=0.5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig16,y_value=desoc["Percentual"].median(),text=str(round(desoc["Percentual"].median(),3)), line_color="blue", pos=1)
+    fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
 
     a1,a2=st.columns(2)
@@ -269,7 +300,7 @@ with tab3:
     fig12.update_layout(yaxis_title="",)
     fig12.update_layout(title="Evolução do Rendimento Real Habitual Médio em Número índice (1º Trimestre de 2012=100)", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig12.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig12.add_hline(y=1, line_dash="dash", line_color="green")
+    add_hline_with_annotation(fig12,y_value=rend_hab["Rendimento habitual médio real – MA (número índice, 1T2012=100)"].median(),text=str(round(rend_hab["Rendimento habitual médio real – MA (número índice, 1T2012=100)"].median(),3)), line_color="blue", pos=2)
     fig12.update_layout(yaxis_range=[90,130])
     fig12.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig12.update_layout( 
@@ -278,14 +309,14 @@ with tab3:
             side='right',
             title_text=''))
     st.plotly_chart(fig12)
-    st.write("Comentários sobre o gráfico 4")
+    st.write("Comentários sobre o gráfico 12")
 
 
     fig17 = px.line(rend_hab, x='Trimestre', y="Proporção do Rendimento das Mulheres em relação aos Homens")
     fig17.update_layout(yaxis_title="",)
     fig17.update_layout(title="Evoluçao da proporção do Rendimento das Mulheres em relação ao rendimento real médio dos Homens no Maranhão.", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig17.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig17.add_hline(y=1, line_dash="dash", line_color="green")
+    add_hline_with_annotation(fig17,y_value=rend_hab["Proporção do Rendimento das Mulheres em relação aos Homens"].median(),text=str(round(rend_hab['Proporção do Rendimento das Mulheres em relação aos Homens'].median(),3)), line_color="blue", pos=0.02)
     fig17.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig17.update_layout( 
         yaxis2=dict(
@@ -305,11 +336,10 @@ with tab4:
     title="Desigualdade de Renda no Maranhão (Índice GINI da renda domiciliar per-capta por trimestre)",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
-    legend=dict(x=0, y=0, orientation='h')
-    )
-	
+    legend=dict(x=0, y=0, orientation='h'))	
     fig15.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig15.add_hline(y=0.5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig15,y_value=desig["Índice GINI da renda domiciliar per capta"].median(),text=str(round(desig["Índice GINI da renda domiciliar per capta"].median(),3)), line_color="blue", pos=0.01)
+    fig15.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     st.plotly_chart(fig15)
     st.write("Comentários sobre o gráfico 15")
 
@@ -320,10 +350,9 @@ with tab4:
     title="Desigualdade de Renda no Maranhão (Índice GINI - Média Móvel, MM=3T)",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
-    legend=dict(x=0, y=0, orientation='h')
-    )
-	
+    legend=dict(x=0, y=0, orientation='h'))
     fig18.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    fig18.add_hline(y=0.5, line_dash="dash", line_color="blue")
+    add_hline_with_annotation(fig18,y_value=desig["GINI média móvel"].median(),text=str(round(desig["GINI média móvel"].median(),3)), line_color="blue", pos=0.01)
+    fig18.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     st.plotly_chart(fig18)
-    st.write("Comentários sobre o gráfico 15")
+    st.write("Comentários sobre o gráfico 18")
