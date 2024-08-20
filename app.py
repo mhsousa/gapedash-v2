@@ -75,6 +75,13 @@ with tab1:
     add_hline_with_annotation(fig13,y_value=inf_mens["Inflação Mensal - Slz (%)"].median(),text="%.3f" % round(inf_mens["Inflação Mensal - Slz (%)"].median(),3), line_color="blue", pos=0.2)
 
     st.plotly_chart(fig13)
+    st.markdown("""
+	<h2 style='color: #4682B4;'>Análise Detalhada</h2>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    As vendas do produto X apresentaram um crescimento constante ao longo do ano. 
+	    No entanto, houve uma leve queda nas vendas do produto Y no último trimestre.
+	</p>
+	""", unsafe_allow_html=True)
     st.write("Comentários sobre o gráfico 13")
 
     #Gráfico 15
