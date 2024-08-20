@@ -291,6 +291,7 @@ with tab2:
     fig16.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig16,y_value=desoc["Percentual"].median(),text=str(round(desoc["Percentual"].median(),3)), line_color="blue", pos=1)
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+   
 
 
     a1,a2=st.columns(2)
@@ -323,7 +324,11 @@ with tab2:
         st.write("Comentários sobre o gráfico 11")
     
     st.plotly_chart(fig16)
-    st.write("Comentários sobre o gráfico 16.")
+    st.markdown("""
+	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Comentários sobre o gráfico 16</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	</p>
+	""", unsafe_allow_html=True)
     
 
         
@@ -345,7 +350,11 @@ with tab3:
             side='right',
             title_text=''))
     st.plotly_chart(fig12)
-    st.write("Comentários sobre o gráfico 12")
+    st.markdown("""
+	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Comentários sobre o gráfico 12</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	</p>
+	""", unsafe_allow_html=True)
 
 
     fig17 = px.line(rend_hab, x='Trimestre', y="Proporção do Rendimento das Mulheres em relação aos Homens")
@@ -361,7 +370,11 @@ with tab3:
             side='right',
             title_text=''))
     st.plotly_chart(fig17)
-    st.write("Comentários sobre o gráfico 17")
+    st.markdown("""
+	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Comentários sobre o gráfico 17</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	</p>
+	""", unsafe_allow_html=True)
         
 
 
