@@ -64,7 +64,7 @@ with tab1:
     #Gráfico 13
     fig13 = go.Figure()
     fig13.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Inflação Mensal - Slz (%)"], name="Inflação Mensal - São Luís (%)"))
-    fig13.update_yaxes(tickformat=".2e")
+    fig13.update_yaxes(tickformat=".2f")
     fig13.update_layout(
     title="Inflação Mensal em São Luís (IPCA) - MA",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -80,7 +80,7 @@ with tab1:
     #Gráfico 15
     fig15 = go.Figure()
     fig15.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Habitação"], name="Habitação"))
-    fig15.update_yaxes(tickformat=".2e")
+    fig15.update_yaxes(tickformat=".2f")
     fig15.update_layout(
     title="Impacto das despesas com a Habitação na Inflação de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -95,7 +95,7 @@ with tab1:
     #Gráfico 14
     fig14 = go.Figure()
     fig14.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Saúde e cuidados pessoais"], name="Saúde e cuidados pessoais"))
-    fig14.update_yaxes(tickformat=".2e")
+    fig14.update_yaxes(tickformat=".2f")
     fig14.update_layout(
     title="Impacto das despesas com Saúde e Cuidados Pessoais na Inflação de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -110,7 +110,7 @@ with tab1:
     #Gráfico 16
     fig16 = go.Figure()
     fig16.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Transportes"], name="Transportes"))
-    fig16.update_yaxes(tickformat=".2e")
+    fig16.update_yaxes(tickformat=".2f")
     fig16.update_layout(
     title="Impacto das despesas com Transporte na Inflação de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
