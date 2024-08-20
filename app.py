@@ -152,7 +152,7 @@ with tab2:
     fig2.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
     #Terceiro grafico
-    fig3 = px.line(criac_emp, x='Ano', y="Taxa de Variação Líquida de Emp. (NEG)- %")
+    fig3 = px.line(criac_emp, x='Ano', y="Taxa de Variação Líquida de Empregos (NEG)- %")
     fig3.update_yaxes(tickformat=".2f")
     fig3.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) no Maranhão - %",
