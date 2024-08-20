@@ -129,6 +129,7 @@ with tab1:
 with tab2:
     #Primeiro grafico 
     fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %")
+    fig.update_yaxes(tickformat=".2f")
     fig.update_layout(
     title="Taxa Bruta de Criação de Empregos (JC) em São Luís - MA - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -140,6 +141,7 @@ with tab2:
 
     #Segundo grafico
     fig2 = px.line(criac_emp, x='Ano', y="Taxa de Destruição de Empregos (JD)- %")
+    fig2.update_yaxes(tickformat=".2f")
     fig2.update_layout(
     title="Taxa Bruta de Destruição de Empregos (JD) no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -151,6 +153,7 @@ with tab2:
 
     #Terceiro grafico
     fig3 = px.line(criac_emp, x='Ano', y="Taxa de Variação Líquida de Empregos (NEG)- %")
+    fig3.update_yaxes(tickformat=".2f")
     fig3.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -162,6 +165,7 @@ with tab2:
 
     #Quarto Gráfico
     fig4 = px.line(criac_emp, x='Ano', y="Extrativa Mineral - NEG")
+    fig4.update_yaxes(tickformat=".2f")
     fig4.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor da Indústria Extrativa Mineral  no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -173,6 +177,7 @@ with tab2:
     
     #Quinto Gráfico
     fig5 = px.line(criac_emp, x='Ano', y="Indústria de Transformação - NEG")
+    fig5.update_yaxes(tickformat=".2f")
     fig5.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor da Indústria de Transformação no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -185,6 +190,7 @@ with tab2:
     
     #Sexto Gráfico
     fig6 = px.line(criac_emp, x='Ano', y="Servicos Industriais de Utilidade Pública - NEG")
+    fig6.update_yaxes(tickformat=".2f")
     fig6.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor da Indústria de Servicos Industriais de Utilidade Pública no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -196,6 +202,7 @@ with tab2:
     
     #Sétimo grafico
     fig7 = px.line(criac_emp, x='Ano', y="Construção Civil - NEG")
+    fig7.update_yaxes(tickformat=".2f")
     fig7.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor da Indústria de Construção Civil no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -207,6 +214,7 @@ with tab2:
     
     #Oitavo gráfico
     fig8 = px.line(criac_emp, x='Ano', y="Comércio - NEG")
+    fig8.update_yaxes(tickformat=".2f")
     fig8.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor de Comércio no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -218,6 +226,7 @@ with tab2:
 
     #Nono gráfico
     fig9 = px.line(criac_emp, x='Ano', y="Serviços - NEG")
+    fig9.update_yaxes(tickformat=".2f")
     fig9.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor de Serviços no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -229,6 +238,7 @@ with tab2:
     
     #Decimo gráfico
     fig10 = px.line(criac_emp, x='Ano', y="Administração Pública - NEG")
+    fig10.update_yaxes(tickformat=".2f")
     fig10.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor de Administração Pública - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -240,6 +250,7 @@ with tab2:
     
     #Décimo primeiro grafico
     fig11 = px.line(criac_emp, x='Ano', y="Agropecuária, Extração Vegetal, Caça e Pesca - NEG")
+    fig11.update_yaxes(tickformat=".2f")
     fig11.update_layout(
     title="Taxa de Variação Líquida de Empregos (NEG) do Setor de Agropecuária, Extração Vegetal, Caça e Pesca no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -252,6 +263,7 @@ with tab2:
 
     fig16 = go.Figure()
     fig16.add_trace(go.Scatter(x=desoc['Trimestre'], y=desoc["Percentual"], name="Taxa de Desemprego Real"))
+    fig16.update_yaxes(tickformat=".2f")
     fig16.update_layout(
     title="Taxa de Desemprego Real no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -301,6 +313,7 @@ with tab2:
 with tab3:
 
     fig12 = px.line(rend_hab, x='Trimestre', y="Rendimento habitual médio real – MA (número índice, 1T2012=100)")
+    fig12.update_yaxes(tickformat=".2f")
     fig12.update_layout(yaxis_title="",)
     fig12.update_layout(title="Evolução do Rendimento Real Habitual Médio em Número índice (1º Trimestre de 2012=100)", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig12.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
@@ -317,6 +330,7 @@ with tab3:
 
 
     fig17 = px.line(rend_hab, x='Trimestre', y="Proporção do Rendimento das Mulheres em relação aos Homens")
+    fig17.update_yaxes(tickformat=".2f")
     fig17.update_layout(yaxis_title="",)
     fig17.update_layout(title="Evoluçao da proporção do Rendimento das Mulheres em relação ao rendimento real médio dos Homens no Maranhão.", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig17.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
@@ -336,6 +350,7 @@ with tab3:
 with tab4:
     fig15 = go.Figure()
     fig15.add_trace(go.Scatter(x=desig['Trimestre'], y=desig["Índice GINI da renda domiciliar per capta"], name="Índice GINI da renda domiciliar per capta"))
+    fig15.update_yaxes(tickformat=".2f")
     fig15.update_layout(
     title="Desigualdade de Renda no Maranhão (Índice GINI da renda domiciliar per-capta por trimestre)",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
@@ -350,6 +365,7 @@ with tab4:
 
     fig18 = go.Figure()
     fig18.add_trace(go.Scatter(x=desig['Trimestre'], y=desig["GINI média móvel"], name="GINI média móvel"))
+    fig18.update_yaxes(tickformat=".2f")
     fig18.update_layout(
     title="Desigualdade de Renda no Maranhão (Índice GINI - Média Móvel, MM=3T)",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
