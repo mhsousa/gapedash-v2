@@ -292,7 +292,14 @@ with tab2:
     add_hline_with_annotation(fig16,y_value=desoc["Percentual"].median(),text=str(round(desoc["Percentual"].median(),3)), line_color="blue", pos=1)
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
    
-
+    st.markdown("""
+	Este é um exemplo de texto formatado em markdown. 
+	**Você pode usar negrito**, *itálico*, e até mesmo `código`.
+	* **Listas:**
+	  * Item 1
+	  * Item 2
+	* **Links:** [Clique aqui para mais informações](https://www.example.com)
+	""")
 
     a1,a2=st.columns(2)
 
