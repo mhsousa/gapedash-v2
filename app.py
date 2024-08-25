@@ -75,7 +75,7 @@ with tab1:
     fig13.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Inflação Mensal - Slz (%)"], name="Inflação Mensal - São Luís (%)"))
     fig13.update_yaxes(tickformat=".2f")
     fig13.update_layout(
-    title="Inflação Mensal em São Luís (IPCA) - MA (em %).",
+    title="Inflação Mensal (IPCA em %) de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
