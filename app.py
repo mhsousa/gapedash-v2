@@ -479,6 +479,8 @@ with tab4:
 	</p>
 	""", unsafe_allow_html=True)
 with tab5:
+    criac_emp2=criac_emp
+    criac_emp2["Ano"]=criac_emp2["Ano"].astype(str)
     st.dataframe(criac_emp)    
     st.dataframe(inf_mens)
     st.dataframe(rend_hab)
