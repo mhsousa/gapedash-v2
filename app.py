@@ -147,6 +147,24 @@ with tab1:
 	   <b>Comentários sobre o gráfico 16</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
 	</p>
 	""", unsafe_allow_html=True)
+
+    fig19 = go.Figure()
+    fig19.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Alimentação e bebidas"], name="Alimentação e bebidas"))
+    fig19.update_yaxes(tickformat=".2f")
+    fig19.update_layout(
+    title="Impacto das despesas com Alimentação e bebidas na Inflação de São Luís - MA.",
+    font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
+    margin=dict(l=50, r=50, b=100, t=100, pad=4),
+    legend=dict(x=0, y=1, orientation='h'))
+    fig19.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig19.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    add_hline_with_annotation(fig16,y_value=inf_mens["Alimentação e bebidas"].mean(),text=str(round(inf_mens["Alimentação e bebidas"].mean(),3)), line_color="blue",pos=0.15)    
+    st.plotly_chart(fig19)
+    st.markdown("""
+	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Comentários sobre o gráfico 19</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	</p>
+	""", unsafe_allow_html=True)
  
 
 
