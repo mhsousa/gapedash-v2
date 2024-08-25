@@ -120,7 +120,7 @@ with tab1:
     legend=dict(x=0, y=1, orientation='h'))
     fig14.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig14.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
-    add_hline_with_annotation(fig14,y_value=inf_mens["Habitação"].mean(),text=str(round(inf_mens["Habitação"].mean(),3)), line_color="blue",pos=0.05)
+    add_hline_with_annotation(fig14,y_value=inf_mens["Saúde e cuidados pessoais"].mean(),text=str(round(inf_mens["Saúde e cuidados pessoais"].mean(),3)), line_color="blue",pos=0.05)
     st.plotly_chart(fig14)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
@@ -140,7 +140,7 @@ with tab1:
     legend=dict(x=0, y=1, orientation='h'))
     fig16.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
-    add_hline_with_annotation(fig16,y_value=inf_mens["Habitação"].mean(),text=str(round(inf_mens["Habitação"].mean(),3)), line_color="blue",pos=0.15)    
+    add_hline_with_annotation(fig16,y_value=inf_mens["Transportes"].mean(),text=str(round(inf_mens["Transportes"].mean(),3)), line_color="blue",pos=0.15)    
     st.plotly_chart(fig16)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
