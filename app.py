@@ -143,7 +143,7 @@ with tab1:
     fig16.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     add_hline_with_annotation(fig16,y_value=inf_mens["Transportes"].mean(),text=str(round(inf_mens["Transportes"].mean(),3)), line_color="blue",pos=0.15)    
-     st.divider()
+    st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
@@ -162,6 +162,7 @@ with tab1:
     fig19.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig19.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     add_hline_with_annotation(fig19,y_value=inf_mens["Alimentação e bebidas"].mean(),text=str(round(inf_mens["Alimentação e bebidas"].mean(),3)), line_color="blue",pos=0.15)    
+    st.divider()
     st.plotly_chart(fig19)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
