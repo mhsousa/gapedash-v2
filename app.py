@@ -75,7 +75,7 @@ with tab1:
     fig13.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Inflação Mensal - Slz (%)"], name="Inflação Mensal - São Luís (%)"))
     fig13.update_yaxes(tickformat=".2f")
     fig13.update_layout(
-    title="Inflação Mensal em São Luís (IPCA) - MA",
+    title="Inflação Mensal em São Luís (IPCA) - MA (em %).",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
@@ -95,7 +95,7 @@ with tab1:
     fig15.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Habitação"], name="Habitação"))
     fig15.update_yaxes(tickformat=".2f")
     fig15.update_layout(
-    title="Impacto das despesas com a Habitação na Inflação de São Luís - MA.",
+    title="Impacto das despesas com a Habitação na Inflação de São Luís - MA . (em p.p).",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
@@ -115,7 +115,7 @@ with tab1:
     fig14.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Saúde e cuidados pessoais"], name="Saúde e cuidados pessoais"))
     fig14.update_yaxes(tickformat=".2f")
     fig14.update_layout(
-    title="Impacto das despesas com Saúde e Cuidados Pessoais na Inflação de São Luís - MA.",
+    title="Impacto das despesas com Saúde e Cuidados Pessoais na Inflação de São Luís - MA (em p.p).",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
@@ -135,7 +135,7 @@ with tab1:
     fig16.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Transportes"], name="Transportes"))
     fig16.update_yaxes(tickformat=".2f")
     fig16.update_layout(
-    title="Impacto das despesas com Transporte na Inflação de São Luís - MA.",
+    title="Impacto das despesas com Transporte na Inflação de São Luís - MA (em p.p).",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
