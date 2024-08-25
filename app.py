@@ -347,6 +347,7 @@ with tab2:
 
     
     with a1:
+        st.divider()
         st.plotly_chart(fig3)
         st.write("Comentários sobre o gráfico 3")
         st.plotly_chart(fig)
@@ -490,11 +491,15 @@ with tab5:
     criac_emp2["Ano"]=criac_emp2["Ano"].astype(str)
     st.subheader("Taxa de Criação e de Destruição  de Empregos por Setor")
     st.dataframe(criac_emp)
+    st.divider()
     st.subheader("Impacto (p.p.) dos preços de grupos de produtos e serviços sobre a inflação mensal - Slz")
     st.dataframe(inf_mens)
+    st.divider()
     st.subheader("Rendimento habitual médio real e Proporção do Rendimento das Mulheres – MA ")
     st.dataframe(rend_hab)
+    st.divider()
     st.subheader("Taxa de Desemprego Real")
     st.dataframe(desoc)
+    st.divider()
     st.subheader("Índice GINI da renda domiciliar per capita e Gini Média Móvel")
     st.dataframe(desig)
