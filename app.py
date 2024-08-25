@@ -81,7 +81,7 @@ with tab1:
     fig13.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig13.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig13,y_value=inf_mens["Inflação Mensal - Slz (%)"].mean(),text="%.3f" % round(inf_mens["Inflação Mensal - Slz (%)"].mean(),3), line_color="blue", pos=0.2)
-
+    st.divider()
     st.plotly_chart(fig13)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
@@ -108,7 +108,7 @@ with tab1:
 	   <b>Comentários sobre o gráfico 15</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
 	</p>
 	""", unsafe_allow_html=True)
-    st.divider()
+   
 
     #Gráfico 14
     fig14 = go.Figure()
@@ -122,6 +122,7 @@ with tab1:
     fig14.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig14.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     add_hline_with_annotation(fig14,y_value=inf_mens["Saúde e cuidados pessoais"].mean(),text=str(round(inf_mens["Saúde e cuidados pessoais"].mean(),3)), line_color="blue",pos=0.05)
+    st.divider()
     st.plotly_chart(fig14)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
@@ -142,6 +143,7 @@ with tab1:
     fig16.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     add_hline_with_annotation(fig16,y_value=inf_mens["Transportes"].mean(),text=str(round(inf_mens["Transportes"].mean(),3)), line_color="blue",pos=0.15)    
+     st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
