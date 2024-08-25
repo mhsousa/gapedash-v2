@@ -342,12 +342,10 @@ with tab2:
 	  * Item 2
 	* **Links:** [Clique aqui para mais informações](https://www.example.com)
 	""")
-
+    st.divider()
     a1,a2=st.columns(2)
-
-    
     with a1:
-        st.divider()
+        
         st.plotly_chart(fig3)
         st.write("Comentários sobre o gráfico 3")
         st.plotly_chart(fig)
