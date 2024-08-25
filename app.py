@@ -163,6 +163,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))  
     fig.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig.update_yaxes(title_text="")
     add_hline_with_annotation(fig,y_value=criac_emp["Taxa de Criação de Empregos (JC)- %"].mean(),text=str(round(criac_emp["Taxa de Criação de Empregos (JC)- %"].mean(),3)), line_color="blue", pos=1)
     fig.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
@@ -175,6 +176,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig2.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig2.update_yaxes(title_text="")
     add_hline_with_annotation(fig2,y_value=criac_emp["Taxa de Destruição de Empregos (JD)- %"].mean(),text=str(round(criac_emp["Taxa de Destruição de Empregos (JD)- %"].mean(),3)), line_color="blue", pos=1)
     fig2.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
@@ -187,6 +189,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig3.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig3.update_yaxes(title_text="")
     add_hline_with_annotation(fig3,y_value=criac_emp["Taxa de Variação Líquida de Empregos (NEG)- %"].mean(),text=str(round(criac_emp["Taxa de Variação Líquida de Empregos (NEG)- %"].mean(),3)), line_color="blue", pos=2)
     fig3.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
@@ -199,6 +202,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig4.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig4.update_yaxes(title_text="")
     add_hline_with_annotation(fig4,y_value=criac_emp["Extrativa Mineral - NEG"].mean(),text=str(round(criac_emp["Extrativa Mineral - NEG"].mean(),3)), line_color="blue", pos=0.007)
     fig4.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
@@ -211,6 +215,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig5.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig5.update_yaxes(title_text="")
     add_hline_with_annotation(fig5,y_value=criac_emp["Indústria de Transformação - NEG"].mean(),text="%.3f" % round(criac_emp["Indústria de Transformação - NEG"].mean(),3), line_color="blue", pos=0.1)
     fig5.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
@@ -224,6 +229,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig6.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig6.update_yaxes(title_text="")
     add_hline_with_annotation(fig6,y_value=criac_emp["Servicos Industriais de Utilidade Pública - NEG"].mean(),text=str(round(criac_emp["Servicos Industriais de Utilidade Pública - NEG"].mean(),3)), line_color="blue", pos=0.07)
     fig6.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
@@ -236,6 +242,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig7.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig7.update_yaxes(title_text="")
     add_hline_with_annotation(fig7,y_value=criac_emp["Construção Civil - NEG"].mean(),text=str(round(criac_emp["Construção Civil - NEG"].mean(),3)), line_color="blue", pos=0.2)
     fig7.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
@@ -248,6 +255,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig8.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig8.update_yaxes(title_text="")
     add_hline_with_annotation(fig8,y_value=criac_emp["Comércio - NEG"].mean(),text=str(round(criac_emp["Comércio - NEG"].mean(),3)), line_color="blue", pos=0.2)
     fig8.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
@@ -260,6 +268,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig9.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig9.update_yaxes(title_text="")
     add_hline_with_annotation(fig9,y_value=criac_emp["Serviços - NEG"].mean(),text=str(round(criac_emp["Serviços - NEG"].mean(),3)), line_color="blue", pos=1)
     fig9.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
@@ -272,6 +281,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig10.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig10.update_yaxes(title_text="")
     add_hline_with_annotation(fig10,y_value=criac_emp["Administração Pública - NEG"].mean(),text=str(round(criac_emp["Administração Pública - NEG"].mean(),3)), line_color="blue", pos=1)
     fig10.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     
@@ -284,6 +294,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig11.update_xaxes(title_text="Ano", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig11.update_yaxes(title_text="")
     add_hline_with_annotation(fig11,y_value=criac_emp["Agropecuária, Extração Vegetal, Caça e Pesca - NEG"].mean(),text=str(round(criac_emp["Agropecuária, Extração Vegetal, Caça e Pesca - NEG"].mean(),3)), line_color="blue", pos=0.15)
     fig11.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
 
@@ -297,6 +308,7 @@ with tab2:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig16.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig16.update_yaxes(title_text="")
     add_hline_with_annotation(fig16,y_value=desoc["Percentual"].mean(),text=str(round(desoc["Percentual"].mean(),3)), line_color="blue", pos=1)
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
    
