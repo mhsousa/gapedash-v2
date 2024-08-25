@@ -371,7 +371,7 @@ with tab2:
         st.write("Comentários sobre o gráfico 10")   
         st.plotly_chart(fig11)
         st.write("Comentários sobre o gráfico 11")
-    
+    st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
@@ -406,6 +406,7 @@ with tab3:
             overlaying='y',
             side='right',
             title_text=''))
+    st.divider()
     st.plotly_chart(fig12)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
@@ -426,6 +427,7 @@ with tab3:
             overlaying='y',
             side='right',
             title_text=''))
+    st.divider()
     st.plotly_chart(fig17)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
@@ -456,6 +458,7 @@ with tab4:
     fig15.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig15,y_value=desig["Índice GINI da renda domiciliar per capta"].mean(),text=str(round(desig["Índice GINI da renda domiciliar per capta"].mean(),3)), line_color="blue", pos=0.01)
     fig15.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    st.divider()
     st.plotly_chart(fig15)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
@@ -475,6 +478,7 @@ with tab4:
     fig18.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig18,y_value=desig["GINI média móvel"].mean(),text=str(round(desig["GINI média móvel"].mean(),3)), line_color="blue", pos=0.01)
     fig18.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    st.divider()
     st.plotly_chart(fig18)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
