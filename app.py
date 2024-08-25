@@ -16,11 +16,12 @@ im1,im2,im3,im4,im5, im6, im7, im8, im9=st.columns(9)
 with im4:
 	st.image("gape.png", width=400)
 
-tab1, tab2, tab3, tab4 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade", "Dados de Referência"])
 tab1.subheader("Inflação: Período compreendido entre os anos de 2020 a 2024.")
 tab2.subheader("Emprego: Período compreendido entre os anos de 2001 a 2018.")
 tab3.subheader("Renda: Período compreendido entre os anos de 2012 a 2023.")
 tab4.subheader("Desigualdade: Período compreendido entre os anos de 2012 a 2023.")
+tab5.subheader("Dados Utilizados")
 
 criac_emp=pd.read_excel('dados_dashboard.xlsx', sheet_name="Criacao_Empreg__Formais_MA", skiprows=1)
 inf_mens=pd.read_excel('dados_dashboard.xlsx', sheet_name="Inflação_Mensal_Slz", skiprows=1)
@@ -477,3 +478,9 @@ with tab4:
 	   <b>Comentários sobre o gráfico 18</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
 	</p>
 	""", unsafe_allow_html=True)
+with tab5:
+    st.dataframe(criac_emp)    
+    st.dataframe(inf_mens)
+    st.dataframe(rend_hab)
+    st.dataframe(desoc)
+    st.dataframe(desig)
