@@ -481,8 +481,13 @@ with tab4:
 with tab5:
     criac_emp2=criac_emp
     criac_emp2["Ano"]=criac_emp2["Ano"].astype(str)
-    st.dataframe(criac_emp)    
+    st.subheader("Taxa de Criação e de Destruição  de Empregos por Setor")
+    st.dataframe(criac_emp)
+    st.subheader("Impacto (p.p.) dos preços de grupos de produtos e serviços sobre a inflação mensal - Slz")
     st.dataframe(inf_mens)
+    st.subheader("Rendimento habitual médio real e Proporção do Rendimento das Mulheres – MA ")
     st.dataframe(rend_hab)
+    st.subheader("Taxa de Desemprego Real")
     st.dataframe(desoc)
+    st.subheader("Índice GINI da renda domiciliar per capita e Gini Média Móvel")
     st.dataframe(desig)
