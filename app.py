@@ -21,7 +21,6 @@ tab1.subheader("Inflação: Período compreendido entre os anos de 2020 a 2024."
 tab2.subheader("Emprego: Período compreendido entre os anos de 2001 a 2018.")
 tab3.subheader("Renda: Período compreendido entre os anos de 2012 a 2023.")
 tab4.subheader("Desigualdade: Período compreendido entre os anos de 2012 a 2023.")
-tab5.subheader("Dados Utilizados")
 
 criac_emp=pd.read_excel('dados_dashboard.xlsx', sheet_name="Criacao_Empreg__Formais_MA", skiprows=1)
 inf_mens=pd.read_excel('dados_dashboard.xlsx', sheet_name="Inflação_Mensal_Slz", skiprows=1)
