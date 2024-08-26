@@ -165,7 +165,18 @@ média do impacto, considerando toda a série temporal.
     st.plotly_chart(fig16)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Comentários sobre o gráfico 16</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	   <b>Nota Técnica sobre o gráfico 16</b>:<br><br> O impacto das despesas com saúde e cuidados pessoais na inflação em
+São Luís, mede o quanto dos gastos com cuidados pessoais, como produtos
+farmacêuticos, analgésicos, antigripais, antibióticos, vitaminas, óculos de
+grau, planos de saúde, serviços médicos, dentistas, exames, produtos de
+higiene pessoal, etc. impactaram diretamente a inflação do mês. Assim, por
+exemplo, se o impacto dos gastos com cuidados pessoais, em dezembro de
+2022, foi de 0,35 p.p. (pontos percentuais) e a inflação do mês foi de
+0,77%, isso significa que 45,45% da inflação de dezembro desse ano foi
+puxada pelos gastos relativos aos cuidados pessoais ou, de outra maneira,
+que da inflação de dezembro de 2022 (0,77%), 0,35 p.p. foi relativo às
+despesas com cuidados pessoais. A curva tracejada azul indica a média do
+impacto, considerando toda a série temporal.
 	</p>
 	""", unsafe_allow_html=True)
 
@@ -184,7 +195,19 @@ média do impacto, considerando toda a série temporal.
     st.plotly_chart(fig19)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Comentários sobre o gráfico 19</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	   <b>Nota técnica sobre o gráfico 19</b>:<br><br> O impacto das despesas com Alimentação e Bebidas na inflação em São
+Luís, mede o quanto dos gastos com alimentação no domicílio como
+cereais, leguminosas, feijão, arroz, farinha, milho, frutas, carnes, aves e
+ovos, bebidas e infusões, enlatados e conservas, tubérculos, etc., bem como
+os gastos com alimentação fora do domicílio, como refeições, lanches,
+cafezinhos, cervejas, sorvetes, vinhos, doces, refrigerantes e etc.
+impactaram diretamente a inflação do mês. Assim, por exemplo, se o
+impacto dos gastos com alimentação e bebidas, em fevereiro de 2024, foi de
+0,15 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso
+significa que 14,5% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos à alimentação dos ludovicenses, ou, de outra maneira, que
+da inflação de fevereiro desse ano (1,03%), 0,15 p.p. foi relativo às
+despesas com alimentação e bebidas. A curva tracejada azul indica a média
+do impacto, considerando toda a série temporal.
 	</p>
 	""", unsafe_allow_html=True)
  
