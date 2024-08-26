@@ -108,7 +108,7 @@ with tab1:
 	   <b>Nota Técnica sobre o gráfico 15</b>:<br><br> O impacto das despesas de habitação na inflação em São Luís, mede o
 quanto dos gastos relacionados à habitação, como aluguel, reparos e
 reformas, taxa de água e esgoto, artigos de limpeza, combustíveis, energia,
-etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o
+entre outros, afetaram diretamente a inflação do mês. Assim, por exemplo, se o
 impacto da despesa de habitação, em fevereiro de 2024, foi de 0,26 p.p.
 (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que
 25% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos a
