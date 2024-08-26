@@ -104,7 +104,7 @@ with tab1:
     add_hline_with_annotation(fig15,y_value=inf_mens["Habitação"].mean(),text=str(round(inf_mens["Habitação"].mean(),3)), line_color="blue",pos=0.1)
     fig15.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     st.divider()
-    st.plotly_chart(fig15) <style>
+    st.plotly_chart(fig15)
 
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
