@@ -386,66 +386,66 @@ with tab2:
     st.divider()
     a1,a2=st.columns(2)
     with a1:
-        st.plotly_chart(fig3)
-	st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
-	</p>""", unsafe_allow_html=True)
+	    st.plotly_chart(fig3)
+	    st.markdown("""
+	     <p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	      <b>Nota Técnica sobre o gráfico</b>:<br><br>
+	   </p>""", unsafe_allow_html=True)
     with a2:
-        st.plotly_chart(fig)
-        st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
-	</p>
-	""", unsafe_allow_html=True)
-        st.plotly_chart(fig2)
+	    st.plotly_chart(fig)
+            st.markdown("""
+	    <p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    <b>Nota Técnica sobre o gráfico</b>:<br><br>
+	    </p>
+	    """, unsafe_allow_html=True)
+            
     b1,b2=st.columns(2)
     with b1:
-        st.markdown("""
+	    st.plotly_chart(fig2)
+	    st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
 	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
 	</p>
 	""", unsafe_allow_html=True)
     with b2:
-        st.plotly_chart(fig4)
-        st.markdown("""
+	    st.plotly_chart(fig4)
+	    st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
 	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
 	</p>
 	""", unsafe_allow_html=True)
     c1,c2=st.columns(2)
     with c1:
-        st.plotly_chart(fig5)
-        st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
-	</p>
-	""", unsafe_allow_html=True)
+	    st.plotly_chart(fig5)
+	    st.markdown("""
+              <p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	      <b>Nota Técnica sobre o gráfico</b>:<br><br>
+	    </p>
+	     """, unsafe_allow_html=True)
     with c2:
-        st.plotly_chart(fig6)
-        st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    st.plotly_chart(fig6)
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
 	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
 	</p>
 	""", unsafe_allow_html=True)  
     d1,d2=st.columns(2)
     with d1:     
-        st.plotly_chart(fig7)
-        st.write("Comentários sobre o gráfico 7")
+	    st.plotly_chart(fig7)
+	    st.write("Comentários sobre o gráfico 7")
     with d2:
-        st.plotly_chart(fig8)
-        st.write("Comentários sobre o gráfico 8") 
+	    st.plotly_chart(fig8)
+	    st.write("Comentários sobre o gráfico 8") 
     e1,e2=st.columns(2)
     with e1:
-        st.plotly_chart(fig9)
-        st.write("Comentários sobre o gráfico 9")
+	    st.plotly_chart(fig9)
+	    st.write("Comentários sobre o gráfico 9")
     with e1:
-        st.plotly_chart(fig10)
-        st.write("Comentários sobre o gráfico 10")  
+	    st.plotly_chart(fig10)
+	    st.write("Comentários sobre o gráfico 10")  
     f1,f2=st.columns(2)
     with f1:
-        st.plotly_chart(fig11)
-        st.write("Comentários sobre o gráfico 11")
+	    st.plotly_chart(fig11)
+	    st.write("Comentários sobre o gráfico 11")
     st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
