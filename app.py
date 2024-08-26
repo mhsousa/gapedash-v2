@@ -389,7 +389,7 @@ with tab2:
 	    st.plotly_chart(fig3)
 	    st.markdown("""
 	     <p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	      <b>Nota Técnica sobre o gráfico 3</b>:<br><br>Os indicadores de emprego descritos aqui se referem à demanda das
+	      <b>Nota Técnica sobre o gráfico 3</b>:<br><br></p> Os indicadores de emprego descritos aqui se referem à demanda das
 empresas por empregos formais e são definidos a partir de três fluxos: os
 fluxos de criação bruta de emprego (JC – da sigla em inglês para job
 creation), que exprimem os novos postos de trabalho criados pelas firmas;
@@ -410,7 +410,7 @@ aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.</p>""", unsafe_allow_html=True)
+Economics, 1999.""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
 	    st.markdown("""
