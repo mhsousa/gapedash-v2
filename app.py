@@ -389,14 +389,50 @@ with tab2:
 	    st.plotly_chart(fig3)
 	    st.markdown("""
 	     <p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	      <b>Nota Técnica sobre o gráfico</b>:<br><br>
+	      <b>Nota Técnica sobre o gráfico 3</b>:<br><br>Os indicadores de emprego descritos aqui se referem à demanda das
+empresas por empregos formais e são definidos a partir de três fluxos: os
+fluxos de criação bruta de emprego (JC – da sigla em inglês para job
+creation), que exprimem os novos postos de trabalho criados pelas firmas;
+os fluxos de destruição bruta de emprego (JD – da sigla em inglês para job
+destruction), que exprimem os postos de trabalho fechados pelas empresas;
+e a variação líquida de empregos (NEG – da sigla em inglês para net
+employment growth), que reflete a taxa da variação líquida dos postos de
+trabalho criados ou destruídos pelas firmas (ou seja, representa a diferença
+entre os postos de trabalho criados e destruídos, resultando numa criação ou
+destruição líquida de postos de trabalho). Por exemplo, a NEG de -8,46 em
+2016 no Maranhão significa que neste ano o Maranhão teve destruição
+líquida de postos de trabalho de 8,46% em relação à média do estoque (E)
+de empregos do ano atual e o anterior (E=Et+Et-1/2); o que significa que o
+número de postos de trabalho fechados foi superior ao de postos de trabalho
+criados. A curva tracejada azul indica a taxa média da variação líquida de
+postos de trabalhos, considerando toda a série temporal. O cálculo para
+aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
+PPGDSE – Programa de Pós-Graduação em Desenvolvimento
+Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
+proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
+Economics, 1999.
+       
 	   </p>""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
 	    st.markdown("""
 	    <p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	    <b>Nota Técnica sobre o gráfico</b>:<br><br>
-	    </p>
+	    <b>Nota Técnica sobre o gráfico 1</b>:<br><br>
+	    </p>O indicador mede os fluxos de criação bruta de emprego formal (JC – da
+sigla em inglês para job creation), que exprimem os novos postos de
+trabalho criados pelas firmas, sem considerar os postos fechados ou
+destruídos pelas empresas, do ponto de vista agregado. Por exemplo, a JC
+de 11,42% em 2018, no Maranhão, significa que o Estado, neste ano, criou
+11,42% postos de trabalho a mais em relação à média do estoque (E) de
+empregos do ano em tela e o anterior (E=Et+Et-1/2), o que significa que o
+número bruto de postos de trabalho criados foi superior aos de postos de
+trabalho fechados. A curva tracejada azul indica a taxa média da criação
+bruta de empregos formais, considerando toda a série temporal. O cálculo
+para aferição é feito pelo GAPE – Grupo de Análise da Política Econômica
+do PPGDSE – Programa de Pós-Graduação em Desenvolvimento
+Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
+proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
+Economics, 1999.
 	    """, unsafe_allow_html=True)
             
     b1,b2=st.columns(2)
@@ -404,8 +440,22 @@ with tab2:
 	    st.plotly_chart(fig2)
 	    st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
-	</p>
+	   <b>Nota Técnica sobre o gráfico 2</b>:<br><br>
+	</p>O indicador mede os fluxos de destruição bruta de emprego formal (JD – da
+sigla em inglês para job destruction), que exprimem os novos postos de
+trabalho fechados pelas firmas, sem considerar os postos criados pelas
+empresas, do ponto de vista agregado. Por exemplo, a JD de 10,95% em
+2018, no Maranhão, significa que o Estado, neste ano, destruiu 10,95%
+postos de trabalho a mais em relação à média do estoque (E) de empregos
+do ano em tela e o anterior (E=Et+Et-1/2), o que significa que o número bruto de postos de trabalho destruídos, para esse ano, foi superior aos de
+postos de trabalho criados. A curva tracejada azul indica a taxa média da
+destruição bruta de empregos formais, considerando toda a série temporal.
+O cálculo para aferição é feito pelo GAPE – Grupo de Análise da Política
+Econômica do PPGDSE – Programa de Pós-Graduação em
+Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
+*Gross Job Flows* proposta por *Steven J. Davis e John Haltiwanger* em
+*Handbook of Labor Economics*, **1999**.
+ 
 	""", unsafe_allow_html=True)
     with b2:
 	    st.plotly_chart(fig4)
