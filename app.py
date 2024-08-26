@@ -459,47 +459,212 @@ Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
 	    st.plotly_chart(fig4)
 	    st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
-	</p>
+	   <b>Nota Técnica sobre o gráfico 4</b>:<br><br>
+	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
+em inglês para net employment growth), que reflete a taxa da variação
+líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
+indústria extrativa mineral, (ou seja, representa a diferença entre os postos
+de trabalho criados e destruídos, resultando numa criação ou destruição
+líquida de postos de trabalho). Por exemplo, a NEG de 0,06% em 2013
+significa que o setor, neste ano, criou 0,06% postos de trabalho a mais em
+relação à média do estoque (E) de empregos do ano em tela e o anterior
+(E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que
+significa que o setor da indústria extrativa mineral criou mais empregos do
+que destruiu, nesse ano. Por outro lado, a NEG de -0,09 do ano de 2015,
+revela o contrário: que o setor destruiu mais portos de trabalho do que
+criou. A curva tracejada azul indica a taxa média da variação líquida de
+empregos formais, considerando toda a série temporal. O cálculo para
+aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
+PPGDSE – Programa de Pós-Graduação em Desenvolvimento
+Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
+proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
+Economics, 1999.
 	""", unsafe_allow_html=True)
     c1,c2=st.columns(2)
     with c1:
 	    st.plotly_chart(fig5)
 	    st.markdown("""
               <p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	      <b>Nota Técnica sobre o gráfico</b>:<br><br>
-	    </p>
+	      <b>Nota Técnica sobre o gráfico 5</b>:<br><br>
+	    </p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
+em inglês para net employment growth), que reflete a taxa da variação
+líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
+indústria de transformação, (ou seja, representa a diferença entre os postos
+de trabalho criados e destruídos, resultando numa criação ou destruição
+líquida de postos de trabalho). Por exemplo, a NEG de 0,82% em 2010
+significa que o setor, nesse ano, criou 0,82% de postos de trabalho a mais
+em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados, os postos que esse mesmo setor fechou; o que
+significa que o setor criou mais empregos do que destruiu, neste ano. Por
+outro lado, a NEG de -1,08 do ano de 2017, revela o contrário: que o setor
+destruiu mais postos de trabalho do que criou. A curva tracejada azul indica
+a taxa média da variação líquida de empregos formais, considerando toda a
+série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
+Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
+em Desenvolvimento Socioeconômico, da UFMA, com base na
+metodologia Gross Job Flows proposta por Steven J. Davis e John
+Haltiwanger em Handbook of Labor Economics, 1999.
 	     """, unsafe_allow_html=True)
     with c2:
 	    st.plotly_chart(fig6)
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Nota Técnica sobre o gráfico</b>:<br><br>
-	</p>
+	   <b>Nota Técnica sobre o gráfico 6</b>:<br><br>
+	</p>  O indicador mede a variação líquida de empregos formais (NEG – da sigla
+em inglês para net employment growth), que reflete a taxa da variação
+líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
+indústria de serviços industriais de utilidade pública (SIUP) (ou seja,
+representa a diferença entre os postos de trabalho criados e destruídos,
+resultando numa criação ou destruição líquida de postos de trabalho). Por
+exemplo, a NEG de 0,15% em 2008 significa que o setor, neste ano, criou
+0,15% de postos de trabalho a mais em relação à média do estoque (E) de
+empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor criou mais
+empregos do que destruiu, nesse ano. Por outro lado, a NEG de -0,01% do
+ano de 2018, revela o contrário: que o setor destruiu mais postos de trabalho
+do que criou. A curva tracejada azul indica a taxa média da variação líquida
+de empregos formais, considerando toda a série temporal. O cálculo para
+aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
+PPGDSE – Programa de Pós-Graduação em Desenvolvimento
+Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
+proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
+Economics, 1999.
 	""", unsafe_allow_html=True)  
     d1,d2=st.columns(2)
     with d1:     
 	    st.plotly_chart(fig7)
-	    st.write("Comentários sobre o gráfico 7")
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Nota Técnica sobre o gráfico 7</b>:<br><br>
+	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
+em inglês para net employment growth), que reflete a taxa da variação
+líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
+indústria de construção civil (ou seja, representa a diferença entre os postos
+de trabalho criados e destruídos, resultando numa criação ou destruição
+líquida de postos de trabalho). Por exemplo, a NEG de 2,64% em 2008
+significa que o setor, neste ano, criou 2,64% de postos de trabalho a mais
+em relação à média do estoque (E) de empregos do ano em tela e o anterior
+(E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que
+significa que o setor criou mais empregos do que destruiu, nesse ano. Por
+outro lado, a NEG de -1,12% do ano de 2018, revela o contrário: que o
+setor destruiu mais postos de trabalho do que criou. A curva tracejada azul
+indica a taxa média da variação líquida de empregos formais, considerando
+toda a série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
+Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
+em Desenvolvimento Socioeconômico, da UFMA, com base na
+metodologia Gross Job Flows proposta por Steven J. Davis e John
+Haltiwanger em Handbook of Labor Economics, 1999.
+ 
+	""", unsafe_allow_html=True)  
     with d2:
 	    st.plotly_chart(fig8)
-	    st.write("Comentários sobre o gráfico 8") 
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Nota Técnica sobre o gráfico 8</b>:<br><br>
+	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
+em inglês para net employment growth), que reflete a taxa da variação
+líquida dos postos de trabalho criados ou destruídos pelas firmas do setor do
+comércio (ou seja, representa a diferença entre os postos de trabalho criados
+e destruídos, resultando numa criação ou destruição líquida de postos de
+trabalho). Por exemplo, a NEG de 2,85% em 2010 significa que o setor,
+neste ano, criou 2,85% de postos de trabalho a mais em relação à média do
+estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o
+setor do comércio criou mais empregos do que destruiu, nesse ano. Por
+outro lado, a NEG de -1,13% do ano de 2018, revela o contrário: que o
+setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando
+toda a série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
+Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
+em Desenvolvimento Socioeconômico, da UFMA, com base na
+metodologia Gross Job Flows proposta por Steven J. Davis e John
+Haltiwanger em Handbook of Labor Economics, 1999.
+	""", unsafe_allow_html=True)  
     e1,e2=st.columns(2)
     with e1:
 	    st.plotly_chart(fig9)
-	    st.write("Comentários sobre o gráfico 9")
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Nota Técnica sobre o gráfico 9</b>:<br><br>
+	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
+em inglês para net employment growth), que reflete a taxa da variação
+líquida dos postos de trabalho criados ou destruídos pelas firmas do setor de
+serviços (ou seja, representa a diferença entre os postos de trabalho criados
+e destruídos, resultando numa criação ou destruição líquida de postos de
+trabalho). Por exemplo, a NEG de 3,68% em 2011 significa que o setor,
+neste ano, criou 3,68% de postos de trabalho a mais em relação à média do
+estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já
+descontados os postos que esse mesmo setor fechou; o que significa que o
+setor de serviços criou mais empregos do que destruiu, nesse ano. Por outro
+lado, a NEG de -2,75% do ano de 2018, revela o contrário: que o setor
+destruiu mais postos de trabalho do que criou. A curva tracejada azul indica
+a taxa média da variação líquida de empregos formais, considerando toda a
+série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
+Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
+em Desenvolvimento Socioeconômico, da UFMA, com base na
+metodologia Gross Job Flows proposta por Steven J. Davis e John
+Haltiwanger em Handbook of Labor Economics, 1999.
+	""", unsafe_allow_html=True)  
     with e2:
 	    st.plotly_chart(fig10)
-	    st.write("Comentários sobre o gráfico 10")  
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Nota Técnica sobre o gráfico 10</b>:<br><br>
+	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
+em inglês para net employment growth), que reflete a taxa da variação
+líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
+administração pública (ou seja, representa a diferença entre os postos de
+trabalho criados e destruídos, resultando numa criação ou destruição líquida
+de postos de trabalho). Por exemplo, a NEG de 11,90% em 2006 significa
+que o setor, neste ano, criou 11,90% de postos de trabalho a mais em
+relação à média do estoque (E) de empregos do ano em tela e o anterior
+(E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que
+significa que o setor da administração pública criou mais empregos do que
+destruiu, nesse ano. Por outro lado, a NEG de -16,65% do ano de 2017,
+revela o contrário: que o setor destruiu mais postos de trabalho do que
+criou. A curva tracejada azul indica a taxa média da variação líquida de
+empregos formais, considerando toda a série temporal. O cálculo para
+aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
+PPGDSE – Programa de Pós-Graduação em Desenvolvimento
+Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
+proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
+Economics, 1999.
+ 
+	""", unsafe_allow_html=True)  
     f1,f2=st.columns(2)
     with f1:
 	    st.plotly_chart(fig11)
-	    st.write("Comentários sobre o gráfico 11")
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Nota Técnica sobre o gráfico 11</b>:<br><br>
+	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
+em inglês para net employment growth), que reflete a taxa da variação
+líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
+agropecuária, extração vegetal, caça e pesca (ou seja, representa a diferença
+entre os postos de trabalho criados e destruídos, resultando numa criação ou
+destruição líquida de postos de trabalho). Por exemplo, a NEG de 0,46% em
+2003 significa que o setor, neste ano, criou 0,46% de postos de trabalho a
+mais em relação à média do estoque (E) de empregos do ano em tela e o
+anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor da agropecuária, extração vegetal, caça e
+pesca criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -0,41% do ano de 2018, revela o contrário: que o setor destruiu
+mais postos de trabalho do que criou. A curva tracejada azul indica a taxa
+média da variação líquida de empregos formais, considerando toda a série
+temporal. O cálculo para aferição é feito pelo GAPE – Grupo de Análise da
+Política Econômica do PPGDSE – Programa de Pós-Graduação em
+Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
+Gross Job Flows proposta por Steven J. Davis e John Haltiwanger em
+Handbook of Labor Economics, 1999.
+	""", unsafe_allow_html=True)  
     st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Comentários sobre o gráfico 16</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
-	</p>
+	   <b>Comentários sobre o gráfico 16</b>:
+	</p> A taxa de desemprego real para o Maranhão refere-se à taxa combinada de
+desocupação e da força de trabalho potencial. A primeira é a relação entre o
+número de desocupados e a força de trabalho, a segunda é definida como o
+conjunto de pessoas de 14 anos ou mais de idade que não estavam ocupadas
+nem desocupadas, mas que possuíam potencial de comporem a força de
+trabalho. Assim, o indicador é a calculado como a razão entre os
+desocupados + força de trabalho potencial e a força de trabalho no
+Maranhão. A taxa é calculada pelo IBGE (Instituto Brasileiro de Geografia
+e Estatística) e esteve muito presente nas estatísticas por ocasião da crise do
+COVID-19, quando a usual taxa de desocupação deixou de refletir as
+dinâmicas do mercado de trabalho em função das medidas de restrição
+social implementadas à época. Por refletir com mais realidade a situação de
+desemprego da força de trabalho, utilizamos aqui como taxa real de
+desemprego. A curva tracejada azul indica a média da taxa de desemprego,
+considerando toda a série temporal.
 	""", unsafe_allow_html=True)
     
 
