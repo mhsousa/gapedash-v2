@@ -392,7 +392,7 @@ with tab2:
 	    st.plotly_chart(fig3)
 	    st.markdown("""
 	     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	      <b>Nota Técnica sobre o gráfico 3</b>:<br><br></p> Os indicadores de emprego descritos aqui se referem à demanda das
+	      <b>Nota Técnica sobre o gráfico 3</b>:<br><br> Os indicadores de emprego descritos aqui se referem à demanda das
 empresas por empregos formais e são definidos a partir de três fluxos: os
 fluxos de criação bruta de emprego (JC – da sigla em inglês para job
 creation), que exprimem os novos postos de trabalho criados pelas firmas;
@@ -413,13 +413,13 @@ aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.""", unsafe_allow_html=True)
+Economics, 1999.</p>""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
 	    st.markdown("""
 	    <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	    <b>Nota Técnica sobre o gráfico 1</b>:<br><br>
-	    </p>O indicador mede os fluxos de criação bruta de emprego formal (JC – da
+	   O indicador mede os fluxos de criação bruta de emprego formal (JC – da
 sigla em inglês para job creation), que exprimem os novos postos de
 trabalho criados pelas firmas, sem considerar os postos fechados ou
 destruídos pelas empresas, do ponto de vista agregado. Por exemplo, a JC
@@ -433,7 +433,7 @@ para aferição é feito pelo GAPE – Grupo de Análise da Política Econômica
 do PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.
+Economics, 1999. </p>
 	    """, unsafe_allow_html=True)
             
     b1,b2=st.columns(2)
@@ -442,7 +442,7 @@ Economics, 1999.
 	    st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 2</b>:<br><br>
-	</p>O indicador mede os fluxos de destruição bruta de emprego formal (JD – da
+	O indicador mede os fluxos de destruição bruta de emprego formal (JD – da
 sigla em inglês para job destruction), que exprimem os novos postos de
 trabalho fechados pelas firmas, sem considerar os postos criados pelas
 empresas, do ponto de vista agregado. Por exemplo, a JD de 10,95% em
@@ -455,7 +455,7 @@ O cálculo para aferição é feito pelo GAPE – Grupo de Análise da Política
 Econômica do PPGDSE – Programa de Pós-Graduação em
 Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
 *Gross Job Flows* proposta por *Steven J. Davis e John Haltiwanger* em
-*Handbook of Labor Economics*, **1999**.
+*Handbook of Labor Economics*, **1999**.</p>
  
 	""", unsafe_allow_html=True)
     with b2:
@@ -463,7 +463,7 @@ Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
 	    st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 4</b>:<br><br>
-	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
+	O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
 indústria extrativa mineral, (ou seja, representa a diferença entre os postos
@@ -481,7 +481,7 @@ aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.
+Economics, 1999.</p>
 	""", unsafe_allow_html=True)
     c1,c2=st.columns(2)
     with c1:
@@ -489,7 +489,7 @@ Economics, 1999.
 	    st.markdown("""
               <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	      <b>Nota Técnica sobre o gráfico 5</b>:<br><br>
-	    </p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
+	   O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
 indústria de transformação, (ou seja, representa a diferença entre os postos
@@ -505,13 +505,13 @@ série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
 Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
 em Desenvolvimento Socioeconômico, da UFMA, com base na
 metodologia Gross Job Flows proposta por Steven J. Davis e John
-Haltiwanger em Handbook of Labor Economics, 1999.
+Haltiwanger em Handbook of Labor Economics, 1999. </p>
 	     """, unsafe_allow_html=True)
     with c2:
 	    st.plotly_chart(fig6)
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 6</b>:<br><br>
-	</p>  O indicador mede a variação líquida de empregos formais (NEG – da sigla
+	  O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
 indústria de serviços industriais de utilidade pública (SIUP) (ou seja,
@@ -528,14 +528,14 @@ aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.
+Economics, 1999.</p>
 	""", unsafe_allow_html=True)  
     d1,d2=st.columns(2)
     with d1:     
 	    st.plotly_chart(fig7)
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 7</b>:<br><br>
-	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
+	 O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
 indústria de construção civil (ou seja, representa a diferença entre os postos
@@ -552,14 +552,14 @@ toda a série temporal. O cálculo para aferição é feito pelo GAPE – Grupo 
 Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
 em Desenvolvimento Socioeconômico, da UFMA, com base na
 metodologia Gross Job Flows proposta por Steven J. Davis e John
-Haltiwanger em Handbook of Labor Economics, 1999.
+Haltiwanger em Handbook of Labor Economics, 1999.</p>
  
 	""", unsafe_allow_html=True)  
     with d2:
 	    st.plotly_chart(fig8)
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 8</b>:<br><br>
-	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
+	 O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor do
 comércio (ou seja, representa a diferença entre os postos de trabalho criados
@@ -574,14 +574,14 @@ toda a série temporal. O cálculo para aferição é feito pelo GAPE – Grupo 
 Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
 em Desenvolvimento Socioeconômico, da UFMA, com base na
 metodologia Gross Job Flows proposta por Steven J. Davis e John
-Haltiwanger em Handbook of Labor Economics, 1999.
+Haltiwanger em Handbook of Labor Economics, 1999.</p>
 	""", unsafe_allow_html=True)  
     e1,e2=st.columns(2)
     with e1:
 	    st.plotly_chart(fig9)
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 9</b>:<br><br>
-	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
+	 O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor de
 serviços (ou seja, representa a diferença entre os postos de trabalho criados
@@ -598,13 +598,13 @@ série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
 Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
 em Desenvolvimento Socioeconômico, da UFMA, com base na
 metodologia Gross Job Flows proposta por Steven J. Davis e John
-Haltiwanger em Handbook of Labor Economics, 1999.
+Haltiwanger em Handbook of Labor Economics, 1999.</p>
 	""", unsafe_allow_html=True)  
     with e2:
 	    st.plotly_chart(fig10)
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 10</b>:<br><br>
-	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
+	O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
 administração pública (ou seja, representa a diferença entre os postos de
@@ -622,7 +622,7 @@ aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.
+Economics, 1999.</p>
  
 	""", unsafe_allow_html=True)  
     f1,f2=st.columns(2)
@@ -630,7 +630,7 @@ Economics, 1999.
 	    st.plotly_chart(fig11)
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 11</b>:<br><br>
-	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
+	O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
 agropecuária, extração vegetal, caça e pesca (ou seja, representa a diferença
@@ -646,14 +646,14 @@ temporal. O cálculo para aferição é feito pelo GAPE – Grupo de Análise da
 Política Econômica do PPGDSE – Programa de Pós-Graduação em
 Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
 Gross Job Flows proposta por Steven J. Davis e John Haltiwanger em
-Handbook of Labor Economics, 1999.
+Handbook of Labor Economics, 1999.</p>
 	""", unsafe_allow_html=True)  
     st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Comentários sobre o gráfico 16</b>:
-	</p> A taxa de desemprego real para o Maranhão refere-se à taxa combinada de
+	 A taxa de desemprego real para o Maranhão refere-se à taxa combinada de
 desocupação e da força de trabalho potencial. A primeira é a relação entre o
 número de desocupados e a força de trabalho, a segunda é definida como o
 conjunto de pessoas de 14 anos ou mais de idade que não estavam ocupadas
@@ -667,7 +667,7 @@ dinâmicas do mercado de trabalho em função das medidas de restrição
 social implementadas à época. Por refletir com mais realidade a situação de
 desemprego da força de trabalho, utilizamos aqui como taxa real de
 desemprego. A curva tracejada azul indica a média da taxa de desemprego,
-considerando toda a série temporal.
+considerando toda a série temporal.</p>
 	""", unsafe_allow_html=True)
     
 
