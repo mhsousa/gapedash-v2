@@ -391,7 +391,7 @@ with tab2:
     with a1:
 	    st.plotly_chart(fig3)
 	    st.markdown("""
-	     <p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	      <b>Nota Técnica sobre o gráfico 3</b>:<br><br></p> Os indicadores de emprego descritos aqui se referem à demanda das
 empresas por empregos formais e são definidos a partir de três fluxos: os
 fluxos de criação bruta de emprego (JC – da sigla em inglês para job
@@ -417,7 +417,7 @@ Economics, 1999.""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
 	    st.markdown("""
-	    <p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	    <b>Nota Técnica sobre o gráfico 1</b>:<br><br>
 	    </p>O indicador mede os fluxos de criação bruta de emprego formal (JC – da
 sigla em inglês para job creation), que exprimem os novos postos de
@@ -440,7 +440,7 @@ Economics, 1999.
     with b1:
 	    st.plotly_chart(fig2)
 	    st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 2</b>:<br><br>
 	</p>O indicador mede os fluxos de destruição bruta de emprego formal (JD – da
 sigla em inglês para job destruction), que exprimem os novos postos de
@@ -461,7 +461,7 @@ Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
     with b2:
 	    st.plotly_chart(fig4)
 	    st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 4</b>:<br><br>
 	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
@@ -487,7 +487,7 @@ Economics, 1999.
     with c1:
 	    st.plotly_chart(fig5)
 	    st.markdown("""
-              <p style='font-family: Arial, sans-serif; font-size: 16px;'>
+              <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	      <b>Nota Técnica sobre o gráfico 5</b>:<br><br>
 	    </p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
@@ -509,7 +509,7 @@ Haltiwanger em Handbook of Labor Economics, 1999.
 	     """, unsafe_allow_html=True)
     with c2:
 	    st.plotly_chart(fig6)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 6</b>:<br><br>
 	</p>  O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
@@ -533,7 +533,7 @@ Economics, 1999.
     d1,d2=st.columns(2)
     with d1:     
 	    st.plotly_chart(fig7)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 7</b>:<br><br>
 	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
@@ -557,7 +557,7 @@ Haltiwanger em Handbook of Labor Economics, 1999.
 	""", unsafe_allow_html=True)  
     with d2:
 	    st.plotly_chart(fig8)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 8</b>:<br><br>
 	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
@@ -579,7 +579,7 @@ Haltiwanger em Handbook of Labor Economics, 1999.
     e1,e2=st.columns(2)
     with e1:
 	    st.plotly_chart(fig9)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 9</b>:<br><br>
 	</p> O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
@@ -602,7 +602,7 @@ Haltiwanger em Handbook of Labor Economics, 1999.
 	""", unsafe_allow_html=True)  
     with e2:
 	    st.plotly_chart(fig10)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 10</b>:<br><br>
 	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
@@ -628,7 +628,7 @@ Economics, 1999.
     f1,f2=st.columns(2)
     with f1:
 	    st.plotly_chart(fig11)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 11</b>:<br><br>
 	</p>O indicador mede a variação líquida de empregos formais (NEG – da sigla
 em inglês para net employment growth), que reflete a taxa da variação
@@ -651,7 +651,7 @@ Handbook of Labor Economics, 1999.
     st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Comentários sobre o gráfico 16</b>:
 	</p> A taxa de desemprego real para o Maranhão refere-se à taxa combinada de
 desocupação e da força de trabalho potencial. A primeira é a relação entre o
