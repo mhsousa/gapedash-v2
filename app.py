@@ -393,7 +393,7 @@ with tab2:
 	   </p>""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
-            st.markdown("""
+	    st.markdown("""
 	    <p style='font-family: Arial, sans-serif; font-size: 16px;'>
 	    <b>Nota Técnica sobre o gráfico</b>:<br><br>
 	    </p>
