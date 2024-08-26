@@ -105,7 +105,16 @@ with tab1:
     st.plotly_chart(fig15)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Comentários sobre o gráfico 15</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	   <b>Nota Técnica sobre o gráfico 15</b>:<br><br> O impacto das despesas de habitação na inflação em São Luís, mede o
+quanto dos gastos relacionados à habitação, como aluguel, reparos e
+reformas, taxa de água e esgoto, artigos de limpeza, combustíveis, energia,
+etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o
+impacto da despesa de habitação, em fevereiro de 2024, foi de 0,26 p.p.
+(pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que
+25% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos a
+habitação ou, de outra maneira, que da inflação de fevereiro desse ano
+(1,03%), 0,26 p.p. foi relativo às despesas com habitação. A curva tracejada
+azul indica a média do impacto, considerando toda a série temporal.
 	</p>
 	""", unsafe_allow_html=True)
    
