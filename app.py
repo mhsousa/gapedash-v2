@@ -135,7 +135,16 @@ azul indica a média do impacto, considerando toda a série temporal.
     st.plotly_chart(fig14)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Comentários sobre o gráfico 14</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	   <b>Nota Técnica sobre o gráfico 14</b>:<br><br> O impacto das despesas de transporte na inflação em São Luís, mede o
+quanto dos gastos relacionados aos transportes, como ônibus urbano, táxi,
+passagem aérea, transporte por aplicativo, automóvel novo, emplacamento e
+licença, seguros, pneu, gasolina, diesel, estacionamento, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto da
+despesa de transporte, em fevereiro de 2024, foi de 0,30 p.p. (pontos
+percentuais) e a inflação do mês foi de 1,03%, isso significa que 29,12% da
+inflação de fevereiro de 2024 foi puxada pelos gastos relativos aos
+transportes ou, de outra maneira, que da inflação de fevereiro (1,03%), 0,30
+p.p. foi relativo às despesas com transportes. A curva tracejada azul indica a
+média do impacto, considerando toda a série temporal.
 	</p>
 	""", unsafe_allow_html=True)
     
