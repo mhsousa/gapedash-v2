@@ -439,7 +439,7 @@ with tab2:
     with e1:
 	    st.plotly_chart(fig9)
 	    st.write("Comentários sobre o gráfico 9")
-    with e1:
+    with e2:
 	    st.plotly_chart(fig10)
 	    st.write("Comentários sobre o gráfico 10")  
     f1,f2=st.columns(2)
