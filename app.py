@@ -63,12 +63,6 @@ def add_hline_with_annotation(fig, y_value, text, line_color='red', line_dash='d
 
 with tab1:
     st.markdown("""
-      <style>
-	body {
- 	text-align: justify;
- 	}
-     </style>
-     <p></p>
 	Este é um exemplo de texto formatado em markdown. 
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.,
 	* **Listas:**
@@ -110,9 +104,10 @@ with tab1:
     add_hline_with_annotation(fig15,y_value=inf_mens["Habitação"].mean(),text=str(round(inf_mens["Habitação"].mean(),3)), line_color="blue",pos=0.1)
     fig15.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     st.divider()
-    st.plotly_chart(fig15)
+    st.plotly_chart(fig15) <style>
+
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 15</b>:<br><br> O impacto das despesas de habitação na inflação em São Luís, mede o
 quanto dos gastos relacionados à habitação, como aluguel, reparos e
 reformas, taxa de água e esgoto, artigos de limpeza, combustíveis, energia,
@@ -142,7 +137,7 @@ azul indica a média do impacto, considerando toda a série temporal.
     st.divider()
     st.plotly_chart(fig14)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 14</b>:<br><br> O impacto das despesas de transporte na inflação em São Luís, mede o
 quanto dos gastos relacionados aos transportes, como ônibus urbano, táxi,
 passagem aérea, transporte por aplicativo, automóvel novo, emplacamento e
@@ -172,7 +167,7 @@ média do impacto, considerando toda a série temporal.
     st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 16</b>:<br><br> O impacto das despesas com saúde e cuidados pessoais na inflação em
 São Luís, mede o quanto dos gastos com cuidados pessoais, como produtos
 farmacêuticos, analgésicos, antigripais, antibióticos, vitaminas, óculos de
@@ -202,7 +197,7 @@ impacto, considerando toda a série temporal.
     st.divider()
     st.plotly_chart(fig19)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota técnica sobre o gráfico 19</b>:<br><br> O impacto das despesas com Alimentação e Bebidas na inflação em São
 Luís, mede o quanto dos gastos com alimentação no domicílio como
 cereais, leguminosas, feijão, arroz, farinha, milho, frutas, carnes, aves e
