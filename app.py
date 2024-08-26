@@ -410,9 +410,7 @@ aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.
-       
-	   </p>""", unsafe_allow_html=True)
+Economics, 1999.</p>""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
 	    st.markdown("""
