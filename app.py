@@ -152,10 +152,10 @@ with tab1:
 	""", unsafe_allow_html=True)
 
     fig19 = go.Figure()
-    fig19.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Alimentação e bebidas"], name="Alimentação e bebidas"))
+    fig19.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Alimentação e bebidas"], name="Alimentação e Bebidas"))
     fig19.update_yaxes(tickformat=".2f")
     fig19.update_layout(
-    title="Impacto das despesas com Alimentação e bebidas na Inflação (em p.p) de São Luís - MA.",
+    title="Impacto das despesas com Alimentação e Bebidas na Inflação (em p.p) de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
