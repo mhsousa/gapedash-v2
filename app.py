@@ -807,7 +807,7 @@ with tab4:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=0, orientation='h'))
     fig23.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    add_hline_with_annotation(fig22,y_value=rend_e_des["GINI"].mean(),text=str(round(rend_e_des["GINI"].mean(),3)), line_color="blue", pos=0.01)
+    add_hline_with_annotation(fig23,y_value=rend_e_des["GINI"].mean(),text=str(round(rend_e_des["GINI"].mean(),3)), line_color="blue", pos=0.01)
     fig23.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     st.divider()
     st.plotly_chart(fig23)
