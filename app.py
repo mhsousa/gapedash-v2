@@ -796,6 +796,26 @@ with tab4:
 	   <b>Comentários sobre o gráfico 22</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
 	</p>
 	""", unsafe_allow_html=True)
+
+    #Gráfico 23
+    fig23 = go.Figure()
+    fig23.add_trace(go.Scatter(x=rend_e_des['Ano'], y=rend_e_des["GINI"], name="Desigualdade – Índice de GINI da remuneração média do Setor Formal da Economia – MA"))
+    fig23.update_yaxes(tickformat=".2f")
+    fig23.update_layout(
+    title="Desigualdade – Índice de GINI da remuneração média do Setor Formal da Economia – MA",
+    font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
+    margin=dict(l=50, r=50, b=100, t=100, pad=4),
+    legend=dict(x=0, y=0, orientation='h'))
+    fig23.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    add_hline_with_annotation(fig22,y_value=rend_e_des["GINI"].mean(),text=str(round(rend_e_des["GINI"].mean(),3)), line_color="blue", pos=0.01)
+    fig23.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    st.divider()
+    st.plotly_chart(fig23)
+    st.markdown("""
+	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Comentários sobre o gráfico 23</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	</p>
+	""", unsafe_allow_html=True)
 with tab5:
     criac_emp2=criac_emp
     criac_emp2["Ano"]=criac_emp2["Ano"].astype(str)
