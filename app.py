@@ -410,7 +410,7 @@ aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.</p>""", unsafe_allow_html=True)
+Economics, <b>1999</b>.</p>""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
 	    st.markdown("""
@@ -430,7 +430,7 @@ para aferição é feito pelo GAPE – Grupo de Análise da Política Econômica
 do PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
 proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999. </p>
+Economics, <b>1999</b>. </p>
 	    """, unsafe_allow_html=True)
             
     b1,b2=st.columns(2)
@@ -451,8 +451,8 @@ destruição bruta de empregos formais, considerando toda a série temporal.
 O cálculo para aferição é feito pelo GAPE – Grupo de Análise da Política
 Econômica do PPGDSE – Programa de Pós-Graduação em
 Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
-*Gross Job Flows* proposta por *Steven J. Davis e John Haltiwanger* em
-*Handbook of Labor Economics*, **1999**.</p>
+<i>Gross Job Flows</i> proposta por <i>Steven J. Davis</i> e <i>John Haltiwanger</i> em
+<i>Handbook of Labor Economics</i>, <b>1999</b>.</p>
  
 	""", unsafe_allow_html=True)
     with b2:
@@ -477,8 +477,8 @@ empregos formais, considerando toda a série temporal. O cálculo para
 aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
-proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.</p>
+proposta por <i>Steven J. Davis</i> e </i>John Haltiwanger</i> em <i>Handbook of Labor
+Economics</i>, <b>1999</b>.</p>
 	""", unsafe_allow_html=True)
     c1,c2=st.columns(2)
     with c1:
@@ -594,8 +594,8 @@ a taxa média da variação líquida de empregos formais, considerando toda a
 série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
 Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
 em Desenvolvimento Socioeconômico, da UFMA, com base na
-metodologia Gross Job Flows proposta por Steven J. Davis e John
-Haltiwanger em Handbook of Labor Economics, 1999.</p>
+metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis e John
+Haltiwanger em Handbook of Labor Economics</i>, <b>1999</b>.</p>
 	""", unsafe_allow_html=True)  
     with e2:
 	    st.plotly_chart(fig10)
@@ -618,8 +618,8 @@ empregos formais, considerando toda a série temporal. O cálculo para
 aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
-proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.</p>
+proposta por <i>Steven J. Davis e John Haltiwanger em Handbook of Labor
+Economics</i>, <b>1999</b>.</p>
  
 	""", unsafe_allow_html=True)  
     f1,f2=st.columns(2)
@@ -642,8 +642,8 @@ média da variação líquida de empregos formais, considerando toda a série
 temporal. O cálculo para aferição é feito pelo GAPE – Grupo de Análise da
 Política Econômica do PPGDSE – Programa de Pós-Graduação em
 Desenvolvimento Socioeconômico, da UFMA, com base na metodologia
-Gross Job Flows proposta por Steven J. Davis e John Haltiwanger em
-Handbook of Labor Economics, 1999.</p>
+<i>Gross Job Flows</i> proposta por <i>Steven J. Davis e John Haltiwanger em
+Handbook of Labor Economics</i>, <b>1999</b>.</p>
 	""", unsafe_allow_html=True)  
     st.divider()
     st.plotly_chart(fig16)
