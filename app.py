@@ -732,7 +732,7 @@ with tab3:
     fig24.update_layout(yaxis_title="",)
     fig24.update_layout(title="Proporção da Remuneração Real Média dos Trabalhadores com Ensino Superior em relação aos que possuem Ensino Médio – Setor Formal (MA)", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig24.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
-    add_hline_with_annotation(fig24,y_value=rend_e_des["S/M"].mean(),text=str(round(rend_e_des['S/M'].mean(),3)), line_color="blue", pos=0.02)
+    add_hline_with_annotation(fig24,y_value=rend_e_des["S/M"].mean(),text=str(round(rend_e_des['S/M'].mean(),3)), line_color="blue", pos=1)
     fig24.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig24.update_layout( 
         yaxis2=dict(
