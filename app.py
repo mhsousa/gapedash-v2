@@ -87,7 +87,7 @@ with tab1:
     st.divider()
     st.plotly_chart(fig13)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 13</b>:<br><br> A <b>inflação mensal</b> é calculada pelo IBGE (Instituto Brasileiro de Geografia e Estatística) por meio do Índice Nacional de Preços ao Consumidor Amplo – IPCA e reflete uma aproximação ao custo de vida mensal da cidade de São Luís, por meio da variação de preços dos grupos de despesas relacionados a alimentação e bebidas, habitação, artigos de residência, vestuário, transportes, saúde e cuidados pessoais, despesas pessoais, educação e comunicação. A curva tracejada azul indica a média da inflação para São Luís, considerando toda a série temporal neste gráfico, iniciada em janeiro de 2020.
 	</p>
 	""", unsafe_allow_html=True)
