@@ -506,7 +506,7 @@ série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
 Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
 em Desenvolvimento Socioeconômico, da UFMA, com base na
 metodologia Gross Job Flows proposta por Steven J. Davis e John
-Haltiwanger em Handbook of Labor Economics, 1999. </p>
+Haltiwanger em <i>Handbook of Labor Economics</i>, <b>1999</b>. </p>
 	     """, unsafe_allow_html=True)
     with c2:
 	    st.plotly_chart(fig6)
