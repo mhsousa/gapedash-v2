@@ -528,8 +528,8 @@ de empregos formais, considerando toda a série temporal. O cálculo para
 aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
 PPGDSE – Programa de Pós-Graduação em Desenvolvimento
 Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
-proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, 1999.</p>
+proposta por <i>Steven J. Davis</i> e <i>John Haltiwanger</i> em <i>Handbook of Labor
+Economics</i>, <b>1999</b>.</p>
 	""", unsafe_allow_html=True)  
     d1,d2=st.columns(2)
     with d1:     
@@ -537,7 +537,7 @@ Economics, 1999.</p>
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 7</b>:<br><br>
 	 O indicador mede a variação líquida de empregos formais (NEG – da sigla
-em inglês para net employment growth), que reflete a taxa da variação
+em inglês para <i>net employment growth</i>), que reflete a taxa da variação
 líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da
 indústria de construção civil (ou seja, representa a diferença entre os postos
 de trabalho criados e destruídos, resultando numa criação ou destruição
@@ -549,11 +549,11 @@ significa que o setor criou mais empregos do que destruiu, nesse ano. Por
 outro lado, a NEG de -1,12% do ano de 2018, revela o contrário: que o
 setor destruiu mais postos de trabalho do que criou. A curva tracejada azul
 indica a taxa média da variação líquida de empregos formais, considerando
-toda a série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
+toda a série temporal. O cálculo para aferição é feito pelo <b>GAPE</b> – Grupo de
 Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
 em Desenvolvimento Socioeconômico, da UFMA, com base na
-metodologia Gross Job Flows proposta por Steven J. Davis e John
-Haltiwanger em Handbook of Labor Economics, 1999.</p>
+metodologia Gross Job Flows proposta por <i>Steven J. Davis e John
+Haltiwanger</i> em <i>Handbook of Labor Economics</i>, <b>1999</b>.</p>
  
 	""", unsafe_allow_html=True)  
     with d2:
@@ -574,8 +574,8 @@ setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indi
 toda a série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de
 Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação
 em Desenvolvimento Socioeconômico, da UFMA, com base na
-metodologia Gross Job Flows proposta por Steven J. Davis e John
-Haltiwanger em Handbook of Labor Economics, 1999.</p>
+metodologia Gross Job Flows proposta por <i>Steven J. Davis</i> e <i>John
+Haltiwanger</i> em <i>Handbook of Labor Economics</i>, <b>1999</b>.</p>
 	""", unsafe_allow_html=True)  
     e1,e2=st.columns(2)
     with e1:
