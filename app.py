@@ -28,6 +28,7 @@ inf_mens=pd.read_excel('dados_dashboard.xlsx', sheet_name="Inflação_Mensal_Slz
 rend_hab=pd.read_excel('dados_dashboard.xlsx', sheet_name="Rend_hab_medio_MA", skiprows=2)
 desoc=pd.read_excel('dados_dashboard.xlsx', sheet_name="Desocupacao_Tx_Comb__MA", skiprows=1)
 desig=pd.read_excel('dados_dashboard.xlsx', sheet_name="Desigualdade")
+rend_e_des=pd.read_excel('dados_dashboard.xlsx', sheet_name="Renda e Des")
 
 def add_hline_with_annotation(fig, y_value, text, line_color='red', line_dash='dash', line_width=2,
                               annotation_position='top' , pos=0):
