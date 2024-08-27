@@ -790,7 +790,7 @@ with tab4:
     add_hline_with_annotation(fig18,y_value=desig["GINI média móvel"].mean(),text=str(round(desig["GINI média móvel"].mean(),3)), line_color="blue", pos=0.01)
     fig22.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     st.divider()
-    st.plotly_chart(fig18)
+    st.plotly_chart(fig22)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
 	   <b>Comentários sobre o gráfico 22</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
