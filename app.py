@@ -66,7 +66,7 @@ with tab1:
     st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	Este é um exemplo de texto formatado em markdown. 
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id. </p>
-	* **Links:** [Clique aqui para mais informações](https://www.example.com)
+	
 
  
 	""", unsafe_allow_html=True)
@@ -378,13 +378,11 @@ with tab2:
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
    
     st.markdown("""
+    <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	Este é um exemplo de texto formatado em markdown. 
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.,
-	* **Listas:**
-	  * Item 1
-	  * Item 2
-	* **Links:** [Clique aqui para mais informações](https://www.example.com)
-	""")
+	</p>
+	""", unsafe_allow_html=True)
     st.divider()
     a1,a2=st.columns(2)
     with a1:
