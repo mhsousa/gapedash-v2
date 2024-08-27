@@ -726,6 +726,26 @@ with tab3:
 	   <b>Comentários sobre o gráfico 17</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
 	</p>
 	""", unsafe_allow_html=True)
+
+    fig24 = px.line(rend_e_des, x='Ano', y="S/M")
+    fig24.update_yaxes(tickformat=".2f")
+    fig24.update_layout(yaxis_title="",)
+    fig24.update_layout(title="Proporção da Remuneração Real Média dos Trabalhadores com Ensino Superior em relação aos que possuem Ensino Médio – Setor Formal (MA)", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
+    fig24.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    add_hline_with_annotation(fig24,y_value=rend_hab["S/M"].mean(),text=str(round(rend_hab['S/M'].mean(),3)), line_color="blue", pos=0.02)
+    fig24.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    fig24.update_layout( 
+        yaxis2=dict(
+            overlaying='y',
+            side='right',
+            title_text=''))
+    st.divider()
+    st.plotly_chart(fig24)
+    st.markdown("""
+	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Comentários sobre o gráfico 24</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
+	</p>
+	""", unsafe_allow_html=True)
         
 
 
