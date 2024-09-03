@@ -168,19 +168,7 @@ with tab1:
     st.plotly_chart(fig19)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	   <b>Nota técnica sobre o gráfico 19</b>:<br><br> O impacto das despesas com Alimentação e Bebidas na inflação em São
-Luís, mede o quanto dos gastos com alimentação no domicílio como
-cereais, leguminosas, feijão, arroz, farinha, milho, frutas, carnes, aves e
-ovos, bebidas e infusões, enlatados e conservas, tubérculos, etc., bem como
-os gastos com alimentação fora do domicílio, como refeições, lanches,
-cafezinhos, cervejas, sorvetes, vinhos, doces, refrigerantes e etc.
-impactaram diretamente a inflação do mês. Assim, por exemplo, se o
-impacto dos gastos com alimentação e bebidas, em fevereiro de 2024, foi de
-0,15 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso
-significa que 14,5% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos à alimentação dos ludovicenses, ou, de outra maneira, que
-da inflação de fevereiro desse ano (1,03%), 0,15 p.p. foi relativo às
-despesas com alimentação e bebidas. A curva tracejada azul indica a média
-do impacto, considerando toda a série temporal.
+	   <b>Nota técnica sobre o gráfico 19</b>:<br><br> O <b>impacto das despesas com Alimentação e Bebidas na inflação</b> em São Luís, mede o quanto dos gastos com alimentação no domicílio, como cereais, leguminosas, feijão, arroz, farinha, milho, frutas, carnes, aves e ovos, bebidas e infusões, enlatados e conservas, tubérculos, etc., bem como os gastos com alimentação fora do domicílio, como refeições, lanches, cafezinhos, cervejas, sorvetes, vinhos, doces, refrigerantes e etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto dos gastos com alimentação e bebidas, em fevereiro de 2024, foi de 0,15 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 14,5% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos à alimentação dos ludovicenses, ou, de outra maneira, que da inflação de fevereiro desse ano (1,03%), 0,15 p.p. foi relativo às despesas com alimentação e bebidas. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
 	</p>
 	""", unsafe_allow_html=True)
  
