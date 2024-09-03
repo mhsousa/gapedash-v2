@@ -337,7 +337,7 @@ with tab2:
    
     st.markdown("""
     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-    A maioria dos indicadores de empregos apresentados aqui se refere à <b>demanda de empregos das empresas</b> no Maranhão, aferida anualmente. Há indicadores que apuram a <b>taxa bruta de criação</b> de postos de trabalho, bem como a <b>taxa bruta de destruição</b> de postos de trabalho. Por consequência, apuramos, também, a <b>taxa de variação líquida de empregos</b> criados ou destruídos (diferença entre o número de postos de trabalhos criados e destruídos). Os indicadores se referem ao nível agregado da demanda por empregos das empresas no Maranhão. Há, ainda, o indicador da variação líquida da demanda por empregos das firmas para os principais setores da atividade econômica do Estado. Ao final, disponibilizamos o índice que permite o acompanhamento da “Taxa de Desemprego Real” do Estado.
+    &emsp;&emsp;A maioria dos indicadores de empregos apresentados aqui se refere à <b>demanda de empregos das empresas</b> no Maranhão, aferida anualmente. Há indicadores que apuram a <b>taxa bruta de criação</b> de postos de trabalho, bem como a <b>taxa bruta de destruição</b> de postos de trabalho. Por consequência, apuramos, também, a <b>taxa de variação líquida de empregos</b> criados ou destruídos (diferença entre o número de postos de trabalhos criados e destruídos). Os indicadores se referem ao nível agregado da demanda por empregos das empresas no Maranhão. Há, ainda, o indicador da variação líquida da demanda por empregos das firmas para os principais setores da atividade econômica do Estado. Ao final, disponibilizamos o índice que permite o acompanhamento da “Taxa de Desemprego Real” do Estado.
 		</p>
 	""", unsafe_allow_html=True)
     st.divider()
@@ -610,7 +610,7 @@ considerando toda a série temporal.</p>
 with tab3:
     st.markdown("""
     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	Nesta aba, apresentamos dois indicadores: a <b>evolução do rendimento médio real habitual da estrutura de ocupação</b> do Maranhão, que permite o acompanhamento, trimestral, da evolução do aumento da remuneração média real comparado ao primeiro trimestre de 2012; e a <b>evolução da proporção da remuneração média real</b> dos trabalhadores com nível superior em relação ao que possuem nível médio, que permite o acompanhamento anual da distância entre trabalhadores com perfis educacionais distintos, em termos de renda, no setor formal da economia maranhense.
+	&emsp;&emsp;Nesta aba, apresentamos dois indicadores: a <b>evolução do rendimento médio real habitual da estrutura de ocupação</b> do Maranhão, que permite o acompanhamento, trimestral, da evolução do aumento da remuneração média real comparado ao primeiro trimestre de 2012; e a <b>evolução da proporção da remuneração média real</b> dos trabalhadores com nível superior em relação ao que possuem nível médio, que permite o acompanhamento anual da distância entre trabalhadores com perfis educacionais distintos, em termos de renda, no setor formal da economia maranhense.
 	</p>
 	""", unsafe_allow_html=True)
 
@@ -682,7 +682,7 @@ with tab3:
 with tab4:
     st.markdown("""
     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	Nesta aba, monitoramos a desigualdade de renda no Estado do Maranhão por meio do índice de Gini e da distância no rendimento entre homens e mulheres. No primeiro caso, há dois indicadores: o primeiro índice monitora, trimestralmente, a evolução da desigualdade de renda domiciliar per capta, considerando <b>toda a estrutura da ocupação</b> no Maranhão; o segundo indicador monitora a desigualdade de renda individual no mercado de <b>trabalho formal</b>  do Estado. No segundo caso, também há dois indicadores: o primeiro índice monitora a evolução anual da remuneração média real das mulheres em relação aos homens no <b>mercado formal</b>  da economia maranhense; e o segundo índice acompanha, trimestralmente, a proporção do rendimento médio real das mulheres em relação ao dos homens, <b> considerando toda a estrutura de ocupação</b>  do estado.
+	&emsp;&emsp;Nesta aba, monitoramos a desigualdade de renda no Estado do Maranhão por meio do índice de Gini e da distância no rendimento entre homens e mulheres. No primeiro caso, há dois indicadores: o primeiro índice monitora, trimestralmente, a evolução da desigualdade de renda domiciliar per capta, considerando <b>toda a estrutura da ocupação</b> no Maranhão; o segundo indicador monitora a desigualdade de renda individual no mercado de <b>trabalho formal</b>  do Estado. No segundo caso, também há dois indicadores: o primeiro índice monitora a evolução anual da remuneração média real das mulheres em relação aos homens no <b>mercado formal</b>  da economia maranhense; e o segundo índice acompanha, trimestralmente, a proporção do rendimento médio real das mulheres em relação ao dos homens, <b> considerando toda a estrutura de ocupação</b>  do estado.
 	</p>""", unsafe_allow_html=True)
     fig15 = go.Figure()
     fig15.add_trace(go.Scatter(x=desig['Trimestre'], y=desig["Índice GINI da renda domiciliar per capta"], name="Índice GINI da renda domiciliar per capta"))
