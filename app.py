@@ -610,7 +610,7 @@ considerando toda a série temporal.</p>
 with tab3:
     st.markdown("""
     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	Nesta aba, apresentamos dois indicadores: a evolução do rendimento médio real habitual da estrutura de ocupação do Maranhão, que permite o acompanhamento, trimestral, da evolução do aumento da remuneração média real comparado ao primeiro trimestre de 2012; e a evolução da proporção da remuneração média real dos trabalhadores com nível superior em relação ao que possuem nível médio, que permite o acompanhamento anual da distância entre trabalhadores com perfis educacionais distintos, em termos de renda, no setor formal da economia maranhense.
+	Nesta aba, apresentamos dois indicadores: a <b>evolução do rendimento médio real habitual da estrutura de ocupação</b> do Maranhão, que permite o acompanhamento, trimestral, da evolução do aumento da remuneração média real comparado ao primeiro trimestre de 2012; e a <b>evolução da proporção da remuneração média real</b> dos trabalhadores com nível superior em relação ao que possuem nível médio, que permite o acompanhamento anual da distância entre trabalhadores com perfis educacionais distintos, em termos de renda, no setor formal da economia maranhense.
 	</p>
 	""", unsafe_allow_html=True)
 
