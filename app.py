@@ -610,8 +610,7 @@ considerando toda a série temporal.</p>
 with tab3:
     st.markdown("""
     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	Este é um exemplo de texto formatado em markdown. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.,
+	Nesta aba, apresentamos dois indicadores: a evolução do rendimento médio real habitual da estrutura de ocupação do Maranhão, que permite o acompanhamento, trimestral, da evolução do aumento da remuneração média real comparado ao primeiro trimestre de 2012; e a evolução da proporção da remuneração média real dos trabalhadores com nível superior em relação ao que possuem nível médio, que permite o acompanhamento anual da distância entre trabalhadores com perfis educacionais distintos, em termos de renda, no setor formal da economia maranhense.
 	</p>
 	""", unsafe_allow_html=True)
 
