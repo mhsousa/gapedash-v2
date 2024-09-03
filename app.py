@@ -338,7 +338,7 @@ with tab2:
    
     st.markdown("""
     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-    A maioria dos indicadores de empregos apresentados aqui se refere à demanda de empregos das empresas no Maranhão, aferida anualmente. Há indicadores que apuram a taxa bruta de criação de postos de trabalho, bem como a taxa bruta de destruição de postos de trabalho. Por consequência, apuramos, também, a taxa de variação líquida de empregos criados ou destruídos (diferença entre o número de postos de trabalhos criados e destruídos). Os indicadores se referem ao nível agregado da demanda por empregos das empresas no Maranhão. Há, ainda, o indicador da variação líquida da demanda por empregos das firmas para os principais setores da atividade econômica do Estado. Ao final, disponibilizamos o índice que permite o acompanhamento da “Taxa de Desemprego Real” do Estado.
+    A maioria dos indicadores de empregos apresentados aqui se refere à <b>demanda de empregos das empresas</b> no Maranhão, aferida anualmente. Há indicadores que apuram a <b>taxa bruta de criação</b> de postos de trabalho, bem como a <b>taxa bruta de destruição</b> de postos de trabalho. Por consequência, apuramos, também, a <b>taxa de variação líquida de empregos</b> criados ou destruídos (diferença entre o número de postos de trabalhos criados e destruídos). Os indicadores se referem ao nível agregado da demanda por empregos das empresas no Maranhão. Há, ainda, o indicador da variação líquida da demanda por empregos das firmas para os principais setores da atividade econômica do Estado. Ao final, disponibilizamos o índice que permite o acompanhamento da “Taxa de Desemprego Real” do Estado.
 		</p>
 	""", unsafe_allow_html=True)
     st.divider()
