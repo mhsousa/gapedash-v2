@@ -338,9 +338,8 @@ with tab2:
    
     st.markdown("""
     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	Este é um exemplo de texto formatado em markdown. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.,
-	</p>
+    A maioria dos indicadores de empregos apresentados aqui se refere à demanda de empregos das empresas no Maranhão, aferida anualmente. Há indicadores que apuram a taxa bruta de criação de postos de trabalho, bem como a taxa bruta de destruição de postos de trabalho. Por consequência, apuramos, também, a taxa de variação líquida de empregos criados ou destruídos (diferença entre o número de postos de trabalhos criados e destruídos). Os indicadores se referem ao nível agregado da demanda por empregos das empresas no Maranhão. Há, ainda, o indicador da variação líquida da demanda por empregos das firmas para os principais setores da atividade econômica do Estado. Ao final, disponibilizamos o índice que permite o acompanhamento da “Taxa de Desemprego Real” do Estado.
+		</p>
 	""", unsafe_allow_html=True)
     st.divider()
     a1,a2=st.columns(2)
@@ -348,28 +347,7 @@ with tab2:
 	    st.plotly_chart(fig3)
 	    st.markdown("""
 	     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	      <b>Nota Técnica sobre o gráfico 3</b>:<br><br> Os indicadores de emprego descritos aqui se referem à demanda das
-empresas por empregos formais e são definidos a partir de três fluxos: os
-fluxos de criação bruta de emprego (JC – da sigla em inglês para job
-creation), que exprimem os novos postos de trabalho criados pelas firmas;
-os fluxos de destruição bruta de emprego (JD – da sigla em inglês para job
-destruction), que exprimem os postos de trabalho fechados pelas empresas;
-e a variação líquida de empregos (NEG – da sigla em inglês para net
-employment growth), que reflete a taxa da variação líquida dos postos de
-trabalho criados ou destruídos pelas firmas (ou seja, representa a diferença
-entre os postos de trabalho criados e destruídos, resultando numa criação ou
-destruição líquida de postos de trabalho). Por exemplo, a NEG de -8,46 em
-2016 no Maranhão significa que neste ano o Maranhão teve destruição
-líquida de postos de trabalho de 8,46% em relação à média do estoque (E)
-de empregos do ano atual e o anterior (E=Et+Et-1/2); o que significa que o
-número de postos de trabalho fechados foi superior ao de postos de trabalho
-criados. A curva tracejada azul indica a taxa média da variação líquida de
-postos de trabalhos, considerando toda a série temporal. O cálculo para
-aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do
-PPGDSE – Programa de Pós-Graduação em Desenvolvimento
-Socioeconômico, da UFMA, com base na metodologia Gross Job Flows
-proposta por Steven J. Davis e John Haltiwanger em Handbook of Labor
-Economics, <b>1999</b>.</p>""", unsafe_allow_html=True)
+	      <b>Nota Técnica sobre o gráfico 3</b>:<br><br> </p>""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
 	    st.markdown("""
