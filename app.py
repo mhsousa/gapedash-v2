@@ -361,7 +361,7 @@ with tab2:
 	    st.plotly_chart(fig2)
 	    st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	   <b>Nota Técnica sobre o gráfico 2</b>:<br><br>
+	   <b>Nota Técnica sobre o gráfico 2</b>:<br><br>O indicador mede os fluxos de destruição bruta de emprego formal (JD – da sigla em inglês para<i> job destruction</i>), que exprimem os novos postos de trabalho fechados pelas firmas, sem considerar os postos criados pelas empresas, do ponto de vista agregado. Por exemplo, a JD de 10,95% em 2018, no Maranhão, significa que o Estado, neste ano, destruiu 10,95% postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), o que significa que o número bruto de postos de trabalho destruídos, para esse ano, foi superior ao de postos de trabalho criados. A curva tracejada azul indica a taxa média da destruição bruta de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis e John Haltiwanger </i>em <i>Handbook of Labor Economics, </i> <b>1999</b>.
     
     </p>
  
