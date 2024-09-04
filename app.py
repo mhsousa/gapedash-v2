@@ -18,10 +18,10 @@ with im4:
 	st.image("gape.png", width=400)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade", "• Dados de Referência"])
-tab1.subheader("Inflação: Período compreendido entre os anos de 2020 a 2024.")
-tab2.subheader("Emprego: Período compreendido entre os anos de 2001 a 2018.")
-tab3.subheader("Renda: Período compreendido entre os anos de 2012 a 2023.")
-tab4.subheader("Desigualdade: Período compreendido entre os anos de 2012 a 2023.")
+tab1.subheader("Inflação")
+tab2.subheader("Emprego")
+tab3.subheader("Renda")
+tab4.subheader("Desigualdade")
 
 criac_emp=pd.read_excel('dados_dashboard.xlsx', sheet_name="Criacao_Empreg__Formais_MA", skiprows=1)
 inf_mens=pd.read_excel('dados_dashboard.xlsx', sheet_name="Inflação_Mensal_Slz", skiprows=1)
