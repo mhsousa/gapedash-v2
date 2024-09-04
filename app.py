@@ -149,7 +149,6 @@ with tab1:
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br> &emsp;&emsp;O <b>impacto das despesas de transporte na inflação</b> em São Luís, mede o quanto dos gastos relacionados aos transportes, como ônibus urbano, táxi, passagem aérea, transporte por aplicativo, automóvel novo, emplacamento e licença, seguros, pneus, gasolina, diesel, estacionamento, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto da despesa de transporte, em fevereiro de 2024, foi de 0,30 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 29,12% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos aos transportes ou, de outra maneira, que da inflação de fevereiro (1,03%), 0,30 p.p. foi relativo às despesas com transportes. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
-
     </p>
 	""", unsafe_allow_html=True)
 
