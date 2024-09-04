@@ -369,6 +369,7 @@ with tab2:
 	    st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica sobre o gráfico 4</b>:<br><br>
+    &emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da indústria extrativa mineral, (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 0,06% em 2013 significa que o setor, neste ano, criou 0,06% postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor da indústria extrativa mineral criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -0,09 do ano de 2015, revela o contrário: que o setor destruiu mais portos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis</i> e <i>John Haltiwanger</i> em <i>Handbook of Labor Economics</i>, <b>1999</b>.
 	</p>
 	""", unsafe_allow_html=True)
     c1,c2=st.columns(2)
