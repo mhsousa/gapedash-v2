@@ -431,6 +431,7 @@ with tab2:
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Comentários sobre o gráfico 16</b>:
+    A <b>taxa de desemprego real</b> para o Maranhão refere-se à taxa combinada de desocupação e da força de trabalho potencial. A primeira é a relação entre o número de desocupados e a força de trabalho, a segunda é definida como o conjunto de pessoas de 14 anos ou mais de idade que não estavam ocupadas nem desocupadas, mas que possuíam potencial de comporem a força de trabalho. Assim, o indicador é a calculado como a razão entre os desocupados + força de trabalho potencial e a força de trabalho no Maranhão. A taxa é calculada pelo IBGE (Instituto Brasileiro de Geografia e Estatística) e esteve muito presente nas estatísticas por ocasião da crise do COVID-19, quando a usual taxa de desocupação deixou de refletir as dinâmicas do mercado de trabalho em função das medidas de restrição social, implementadas à época. Por refletir com mais acurácia a situação de desemprego da força de trabalho, utilizamos aqui como taxa real de desemprego. A curva tracejada azul indica a média da taxa de desemprego, considerando toda a série temporal.
 	</p>
 	""", unsafe_allow_html=True)
     
