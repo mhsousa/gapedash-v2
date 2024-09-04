@@ -422,7 +422,7 @@ with tab2:
     with f1:
 	    st.plotly_chart(fig11)
 	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	   <b>Nota Técnica sobre o gráfico 11</b>:<br><br>
+	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da agropecuária, extração vegetal, caça e pesca (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 0,46% em 2003 significa que o setor, nesse ano, criou 0,46% de postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor da agropecuária, extração vegetal, caça e pesca criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -0,41% do ano de 2018, revela o contrário: que o setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis</i> e <i>John Haltiwanger</i> em <i>Handbook of Labor Economics</i>, <b>1999</b>.
 	</p>
 	""", unsafe_allow_html=True)  
