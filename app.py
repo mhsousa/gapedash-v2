@@ -553,8 +553,9 @@ with tab4:
     st.plotly_chart(fig18)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Comentários sobre o gráfico 18</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
-	</p>
+	   <b>Comentários sobre o gráfico 18</b>:<br><br>
+       &emsp;&emsp;O indicador é o mesmo do gráfico anterior, apenas tratado com uma média móvel para suavizar a curva e permitir uma melhor visualização da trajetória e tendência da concentração de renda no Estado.
+    	</p>
 	""", unsafe_allow_html=True)
     #Gráfico 22
     fig22 = go.Figure()
@@ -572,8 +573,10 @@ with tab4:
     st.plotly_chart(fig22)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Comentários sobre o gráfico 22</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, velit et malesuada euismod, risus massa convallis dui, ac bibendum libero eros non nisi. Aliquam erat volutpat. Mauris eros augue, eleifend suscipit quam non, faucibus lacinia erat. Nulla a mollis dolor. Vivamus ultricies, neque eget hendrerit congue, turpis sem condimentum libero, et pretium ipsum nibh quis ex. Curabitur sollicitudin, nisi ac ornare mollis, nibh mi ullamcorper urna, vel aliquet ipsum felis eu metus. Nam sollicitudin magna vitae est aliquet, feugiat lobortis nulla vehicula. Sed aliquet vulputate ex, et lobortis metus auctor in. Duis consequat mi eu ligula semper, eu fermentum augue luctus. Nullam sed finibus eros. Cras nec aliquam orci. Sed ante libero, tempus vel pretium vitae, rutrum et lacus. Donec vitae urna malesuada odio commodo molestie. Praesent varius elit urna, ac aliquam nulla tempus id.
-	</p>
+	   <b>Comentários sobre o gráfico 22</b>:<br><br>
+    
+A proporção mede a <b>evolução da remuneração média real das mulheres que trabalham no setor formal da economia maranhense em relação a dos homens</b>. Portanto, a proporção não inclui os trabalhadores informais do Estado, que representam a grande maioria da ocupação. O indicador reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,96 em 2011 sugere que as mulheres, ocupadas no setor formal da economia, ganhavam 96% da remuneração média real dos homens. Já, a proporção de 0,78 em 2000 aponta que essas mesmas mulheres ganhavam 78% da remuneração média dos homens ocupados no setor formal, nesse ano. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do Ministério do Trabalho e Emprego.
+     </p>
 	""", unsafe_allow_html=True)
 
     #Gráfico 23
