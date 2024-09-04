@@ -181,7 +181,7 @@ with tab2:
     fig = px.line(criac_emp, x='Ano', y="Taxa de Criação de Empregos (JC)- %")
     fig.update_yaxes(tickformat=".2f")
     fig.update_layout(
-    title="Taxa Bruta de Criação de Empregos (JC) em São Luís - MA - %",
+    title="Taxa Bruta de Criação de Empregos (JC) no Maranhão - %",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))  
