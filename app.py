@@ -128,7 +128,6 @@ with tab1:
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>&emsp;&emsp;O <b>impacto das despesas com saúde e cuidados pessoais na inflação</b> em São Luís, mede o quanto dos gastos com cuidados pessoais, como produtos farmacêuticos, analgésicos, antigripais, antibióticos, vitaminas, óculos de grau, planos de saúde, serviços médicos, dentistas, exames, produtos de higiene pessoal, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto dos gastos com cuidados pessoais, em dezembro de 2022, foi de 0,35 p.p. (pontos percentuais) e a inflação do mês foi de 0,77%, isso significa que 45,45% da inflação de dezembro desse ano foi puxada pelos gastos relativos aos cuidados pessoais ou, de outra maneira, que da inflação de dezembro de 2022 (0,77%), 0,35 p.p. foi relativo às despesas com cuidados pessoais. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
- 	
     </p>
 	""", unsafe_allow_html=True)
    
