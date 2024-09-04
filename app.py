@@ -71,7 +71,7 @@ with tab1:
 	""", unsafe_allow_html=True)
     #Gráfico 13
     fig13 = go.Figure()
-    fig13.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Inflação Mensal - Slz (%)"], name="Inflação Mensal - São Luís (%)"))
+    fig13.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Inflação Mensal - Slz (%)"], name="Taxa Bruta de Criação de Empregos (JC) no Maranhão - %."))
     fig13.update_yaxes(tickformat=".2f")
     fig13.update_layout(
     title="Inflação Mensal (IPCA em %) de São Luís - MA.",
