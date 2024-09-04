@@ -506,10 +506,7 @@ with tab3:
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
 	   <b>Comentários sobre o gráfico 24</b>:<br><br>
-    &emsp;&emsp;A proporção mede a <b>evolução da remuneração média real dos trabalhadores do setor formal da economia maranhense</b>, com instrução de nível superior, em relação aos trabalhadores que possuíam instrução de nível médio, desse mesmo setor. Por exemplo, em 2002 a proporção de 5,69 sugere que os trabalhadores do setor formal que possuíam nível superior ganhavam, em média, 5,69 vezes a mais que os trabalhadores que detinham apenas o nível médio de instrução, nesse mesmo setor. Já, em 2019, a proporção de 2,89 sugere que os trabalhadores com nível superior ganhavam, em média, cerca de 2,89 vezes a mais que os trabalhos de nível médio de instrução. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do Ministério do Trabalho e Emprego.
-
-
-    
+    &emsp;&emsp;A proporção mede a <b>evolução da remuneração média real dos trabalhadores do setor formal da economia maranhense</b>, com instrução de nível superior, em relação aos trabalhadores que possuíam instrução de nível médio, desse mesmo setor. Por exemplo, em 2002 a proporção de 5,69 sugere que os trabalhadores do setor formal que possuíam nível superior ganhavam, em média, 5,69 vezes a mais que os trabalhadores que detinham apenas o nível médio de instrução, nesse mesmo setor. Já, em 2019, a proporção de 2,89 sugere que os trabalhadores com nível superior ganhavam, em média, cerca de 2,89 vezes a mais que os trabalhos de nível médio de instrução. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do Ministério do Trabalho e Emprego. 
     </p>
 	""", unsafe_allow_html=True)
         
