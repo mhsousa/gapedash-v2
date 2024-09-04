@@ -449,7 +449,7 @@ with tab3:
     fig12 = px.line(rend_hab, x='Trimestre', y="Rendimento habitual médio real – MA (número índice, 1T2012=100)")
     fig12.update_yaxes(tickformat=".2f")
     fig12.update_layout(yaxis_title="",)
-    fig12.update_layout(title="Evolução do Rendimento Real Habitual Médio em Número índice (1º Trimestre de 2012=100)", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
+    fig12.update_layout(title="Evolução do Rendimento Médio Real Habitual em Número Índice (1º Trimestre de 2012=100)", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig12.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig12,y_value=rend_hab["Rendimento habitual médio real – MA (número índice, 1T2012=100)"].mean(),text=str(round(rend_hab["Rendimento habitual médio real – MA (número índice, 1T2012=100)"].mean(),3)), line_color="blue", pos=2)
     fig12.update_layout(yaxis_range=[90,130])
