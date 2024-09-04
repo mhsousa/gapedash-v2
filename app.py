@@ -481,13 +481,7 @@ with tab3:
             overlaying='y',
             side='right',
             title_text=''))
-    st.divider()
-    st.plotly_chart(fig17)
-    st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
-	   <b>Comentários sobre o gráfico 17</b>:<br><br>
-    &emsp;&emsp;A proporção mede a evolução do <b>rendimento médio real habitual das mulheres ocupadas em relação ao dos homens ocupados no Maranhão</b>. Portanto a proporção diz respeito a todos os rendimentos provenientes de toda as ocupações (formal e informal) e reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,94 no 2T2017 (segundo trimestre de 2017) sugere que as mulheres ocupadas ganhavam, nesse período, 94% da remuneração média real dos homens. Já, a proporção de 0,87 no 2T2023 (segundo trimestre de 2023) aponta que essas mesmas mulheres ganhavam 87% da remuneração média dos homens ocupados nesse trimestre. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do IBGE.	</p>
-	""", unsafe_allow_html=True)
+    
 
     fig24 = px.line(rend_e_des, x='Ano', y="S/M")
     fig24.update_yaxes(tickformat=".2f")
@@ -598,6 +592,14 @@ with tab4:
 	   <b>Comentários sobre o gráfico 23</b>:<br><br>
     &emsp;&emsp;O <b>índice de desigualdade do setor formal da economia do Maranhão</b> acompanha, anualmente, a concentração de renda no Estado nos setores de ocupação formal. Portanto, ao contrário do primeiro gráfico de desigualdade, não se está considerando toda a ocupação, mas apenas a desigualdade entre os trabalhadores formais, individualmente. O indicador usado é o índice de Gini. Esse coeficiente assume valores que variam entre 0 e 1 e significa que os valores próximos a 0 representam que a estrutura da sociedade está próxima de uma igualdade em termos de renda. Já para valores próximos de 1, essa sociedade está próxima da desigualdade absoluta. Portanto, quanto mais próximo de 0, maior é a igualdade e quanto mais próximo de 1, maior é a desigualdade. Geralmente, o indicador é considerado elevado quando assume valores a partir de 0,45. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do Ministério do Trabalho e Emprego.
 	</p>
+	""", unsafe_allow_html=True)
+
+    st.divider()
+    st.plotly_chart(fig17)
+    st.markdown("""
+	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	   <b>Comentários sobre o gráfico 17</b>:<br><br>
+    &emsp;&emsp;A proporção mede a evolução do <b>rendimento médio real habitual das mulheres ocupadas em relação ao dos homens ocupados no Maranhão</b>. Portanto a proporção diz respeito a todos os rendimentos provenientes de toda as ocupações (formal e informal) e reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,94 no 2T2017 (segundo trimestre de 2017) sugere que as mulheres ocupadas ganhavam, nesse período, 94% da remuneração média real dos homens. Já, a proporção de 0,87 no 2T2023 (segundo trimestre de 2023) aponta que essas mesmas mulheres ganhavam 87% da remuneração média dos homens ocupados nesse trimestre. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do IBGE.	</p>
 	""", unsafe_allow_html=True)
 with tab5:
     criac_emp2=criac_emp
