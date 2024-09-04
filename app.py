@@ -94,7 +94,7 @@ with tab1:
     fig15.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Habitação"], name="Habitação"))
     fig15.update_yaxes(tickformat=".2f")
     fig15.update_layout(
-    title="Impacto das despesas com a Habitação na Inflação (em p.p) de São Luís - MA .",
+    title="Impacto das despesas com a Habitação na Inflação (em p.p..) de São Luís - MA .",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
@@ -106,7 +106,7 @@ with tab1:
 
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	   <b>Nota Técnica sobre o gráfico 15</b>:<br><br>O <b>impacto das despesas de habitação na inflação</b> em São Luís, mede o quanto dos gastos relacionados à habitação, como aluguel, reparos e reformas, taxa de água e esgoto, artigos de limpeza, combustíveis, energia, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto da despesa de habitação, em fevereiro de 2024, foi de 0,26 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 25% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos a habitação ou, de outra maneira, que da inflação de fevereiro desse ano (1,03%), 0,26 p.p. foi relativo às despesas com habitação. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
+	   <b>Nota Técnica sobre o gráfico 15</b>:<br><br>O <b>impacto das despesas de habitação na inflação</b> em São Luís, mede o quanto dos gastos relacionados à habitação, como aluguel, reparos e reformas, taxa de água e esgoto, artigos de limpeza, combustíveis, energia, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto da despesa de habitação, em fevereiro de 2024, foi de 0,26 p.p.. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 25% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos a habitação ou, de outra maneira, que da inflação de fevereiro desse ano (1,03%), 0,26 p.p.. foi relativo às despesas com habitação. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
 	</p>
 	""", unsafe_allow_html=True)
    
@@ -116,7 +116,7 @@ with tab1:
     fig14.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Saúde e cuidados pessoais"], name="Saúde e cuidados pessoais"))
     fig14.update_yaxes(tickformat=".2f")
     fig14.update_layout(
-    title="Impacto das despesas com Saúde e Cuidados Pessoais na Inflação (em p.p) de São Luís - MA.",
+    title="Impacto das despesas com Saúde e Cuidados Pessoais na Inflação (em p.p.) de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
@@ -127,7 +127,7 @@ with tab1:
     st.plotly_chart(fig14)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	   <b>Nota Técnica sobre o gráfico 14</b>:<br><br> O <b>impacto das despesas de transporte na inflação</b> em São Luís, mede o quanto dos gastos relacionados aos transportes, como ônibus urbano, táxi, passagem aérea, transporte por aplicativo, automóvel novo, emplacamento e licença, seguros, pneus, gasolina, diesel, estacionamento, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto da despesa de transporte, em fevereiro de 2024, foi de 0,30 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 29,12% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos aos transportes ou, de outra maneira, que da inflação de fevereiro (1,03%), 0,30 p.p. foi relativo às despesas com transportes. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
+	   <b>Nota Técnica sobre o gráfico 14</b>:<br><br> O <b>impacto das despesas de transporte na inflação</b> em São Luís, mede o quanto dos gastos relacionados aos transportes, como ônibus urbano, táxi, passagem aérea, transporte por aplicativo, automóvel novo, emplacamento e licença, seguros, pneus, gasolina, diesel, estacionamento, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto da despesa de transporte, em fevereiro de 2024, foi de 0,30 p.p.. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 29,12% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos aos transportes ou, de outra maneira, que da inflação de fevereiro (1,03%), 0,30 p.p.. foi relativo às despesas com transportes. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
 	</p>
 	""", unsafe_allow_html=True)
     
@@ -137,7 +137,7 @@ with tab1:
     fig16.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Transportes"], name="Transportes"))
     fig16.update_yaxes(tickformat=".2f")
     fig16.update_layout(
-    title="Impacto das despesas com Transporte na Inflação  (em p.p) de São Luís - MA.",
+    title="Impacto das despesas com Transporte na Inflação  (em p.p.) de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
@@ -148,7 +148,7 @@ with tab1:
     st.plotly_chart(fig16)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	   <b>Nota Técnica sobre o gráfico 16</b>:<br><br>O <b>impacto das despesas com saúde e cuidados pessoais na inflação</b> em São Luís, mede o quanto dos gastos com cuidados pessoais, como produtos farmacêuticos, analgésicos, antigripais, antibióticos, vitaminas, óculos de grau, planos de saúde, serviços médicos, dentistas, exames, produtos de higiene pessoal, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto dos gastos com cuidados pessoais, em dezembro de 2022, foi de 0,35 p.p. (pontos percentuais) e a inflação do mês foi de 0,77%, isso significa que 45,45% da inflação de dezembro desse ano foi puxada pelos gastos relativos aos cuidados pessoais ou, de outra maneira, que da inflação de dezembro de 2022 (0,77%), 0,35 p.p. foi relativo às despesas com cuidados pessoais. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
+	   <b>Nota Técnica sobre o gráfico 16</b>:<br><br>O <b>impacto das despesas com saúde e cuidados pessoais na inflação</b> em São Luís, mede o quanto dos gastos com cuidados pessoais, como produtos farmacêuticos, analgésicos, antigripais, antibióticos, vitaminas, óculos de grau, planos de saúde, serviços médicos, dentistas, exames, produtos de higiene pessoal, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto dos gastos com cuidados pessoais, em dezembro de 2022, foi de 0,35 p.p.. (pontos percentuais) e a inflação do mês foi de 0,77%, isso significa que 45,45% da inflação de dezembro desse ano foi puxada pelos gastos relativos aos cuidados pessoais ou, de outra maneira, que da inflação de dezembro de 2022 (0,77%), 0,35 p.p.. foi relativo às despesas com cuidados pessoais. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
 	</p>
 	""", unsafe_allow_html=True)
 
@@ -156,7 +156,7 @@ with tab1:
     fig19.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Alimentação e bebidas"], name="Alimentação e Bebidas"))
     fig19.update_yaxes(tickformat=".2f")
     fig19.update_layout(
-    title="Impacto das despesas com Alimentação e Bebidas na Inflação (em p.p) de São Luís - MA.",
+    title="Impacto das despesas com Alimentação e Bebidas na Inflação (em p.p.) de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
@@ -167,7 +167,7 @@ with tab1:
     st.plotly_chart(fig19)
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
-	   <b>Nota técnica sobre o gráfico 19</b>:<br><br> O <b>impacto das despesas com Alimentação e Bebidas na inflação</b> em São Luís, mede o quanto dos gastos com alimentação no domicílio, como cereais, leguminosas, feijão, arroz, farinha, milho, frutas, carnes, aves e ovos, bebidas e infusões, enlatados e conservas, tubérculos, etc., bem como os gastos com alimentação fora do domicílio, como refeições, lanches, cafezinhos, cervejas, sorvetes, vinhos, doces, refrigerantes e etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto dos gastos com alimentação e bebidas, em fevereiro de 2024, foi de 0,15 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 14,5% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos à alimentação dos ludovicenses, ou, de outra maneira, que da inflação de fevereiro desse ano (1,03%), 0,15 p.p. foi relativo às despesas com alimentação e bebidas. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
+	   <b>Nota técnica sobre o gráfico 19</b>:<br><br> O <b>impacto das despesas com Alimentação e Bebidas na inflação</b> em São Luís, mede o quanto dos gastos com alimentação no domicílio, como cereais, leguminosas, feijão, arroz, farinha, milho, frutas, carnes, aves e ovos, bebidas e infusões, enlatados e conservas, tubérculos, etc., bem como os gastos com alimentação fora do domicílio, como refeições, lanches, cafezinhos, cervejas, sorvetes, vinhos, doces, refrigerantes e etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto dos gastos com alimentação e bebidas, em fevereiro de 2024, foi de 0,15 p.p.. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 14,5% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos à alimentação dos ludovicenses, ou, de outra maneira, que da inflação de fevereiro desse ano (1,03%), 0,15 p.p.. foi relativo às despesas com alimentação e bebidas. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
 	</p>
 	""", unsafe_allow_html=True)
  
@@ -606,7 +606,7 @@ with tab5:
     st.write("")
     st.dataframe(criac_emp)
     st.divider()
-    st.subheader("Impacto (p.p.) dos preços de grupos de produtos e serviços sobre a inflação mensal - Slz")
+    st.subheader("Impacto (p.p..) dos preços de grupos de produtos e serviços sobre a inflação mensal - Slz")
     st.write("")
     st.dataframe(inf_mens)
     st.divider()
