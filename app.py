@@ -472,7 +472,7 @@ with tab3:
     fig17 = px.line(rend_hab, x='Trimestre', y="Proporção do Rendimento das Mulheres em relação aos Homens")
     fig17.update_yaxes(tickformat=".2f")
     fig17.update_layout(yaxis_title="",)
-    fig17.update_layout(title="Evoluçao da proporção do Rendimento das Mulheres em relação ao rendimento real médio dos Homens no Maranhão.", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
+    fig17.update_layout(title="Evolução da proporção do Rendimento Médio Real das Mulheres em relação ao dos Homens no Maranhão.", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig17.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig17,y_value=rend_hab["Proporção do Rendimento das Mulheres em relação aos Homens"].mean(),text=str(round(rend_hab['Proporção do Rendimento das Mulheres em relação aos Homens'].mean(),3)), line_color="blue", pos=0.02)
     fig17.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
