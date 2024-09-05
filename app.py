@@ -462,7 +462,7 @@ with tab3:
     st.divider()
     st.plotly_chart(fig12)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
 	   <b>Nota Técnica</b>: <br><br>
     &emsp;&emsp;O <b>rendimento médio real</b> habitualmente recebido refere-se à remuneração recebida por todos os trabalhos feitos pelas pessoas ocupadas de 14 anos ou mais no Maranhão, em termos reais, ou seja, considerando a evolução do poder de compra (descontando a inflação). Transformou-se o valor do rendimento em um número índice com base no primeiro trimestre de 2012 para poder visualizar a evolução do aumento real do rendimento ao longo do tempo. Por exemplo, o índice do 1T2023 (primeiro trimestre de 2023) igual a 124,61, sugere que o rendimento do maranhense, no primeiro trimestre de 2023, era, em termos reais, 24,61% maior do que no primeiro trimestre de 2012. Por outro lado, o índice do 2T2014 (segundo trimestre de 2014) igual a 96,16, significa dizer que o rendimento do maranhense, no segundo trimestre de 2014, era 3,84% (100 – 96,16) menor que o verificado no primeiro trimestre de 2012. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do IBGE.
 	</p>
@@ -498,7 +498,7 @@ with tab3:
     st.divider()
     st.plotly_chart(fig24)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;A proporção mede a <b>evolução da remuneração média real dos trabalhadores do setor formal da economia maranhense</b>, com instrução de nível superior, em relação aos trabalhadores que possuíam instrução de nível médio, desse mesmo setor. Por exemplo, em 2002 a proporção de 5,69 sugere que os trabalhadores do setor formal que possuíam nível superior ganhavam, em média, 5,69 vezes a mais que os trabalhadores que detinham apenas o nível médio de instrução, nesse mesmo setor. Já, em 2019, a proporção de 2,89 sugere que os trabalhadores com nível superior ganhavam, em média, cerca de 2,89 vezes a mais que os trabalhos de nível médio de instrução. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do Ministério do Trabalho e Emprego. 
     </p>
@@ -526,7 +526,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig15)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;O <b>índice de desigualdade de renda do Maranhão</b> acompanha, trimestralmente, a concentração de renda no Estado e, portanto, mede a distância ou a diferença entre os que ganham mais e os que ganham menos. O indicador usado é o índice de Gini. Esse coeficiente assume valores que variam entre 0 e 1 e significa que os valores próximos a 0 representam que a estrutura da sociedade está próxima de uma igualdade em termos de renda. Já para valores próximos de 1, essa sociedade está próxima da desigualdade absoluta. Portanto, quanto mais próximo de 0, maior é a igualdade e quanto mais próximo de 1, maior é a desigualdade. Geralmente, o indicador é considerado elevado quando assume valores a partir de 0,45. Particularmente para o Maranhão, o índice foi calculado considerando o rendimento domiciliar per capta, que representa a relação entre o total dos rendimentos domiciliares nominais e o total dos moradores. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados da PNADC-Anual do IBGE.	</p>
 	""", unsafe_allow_html=True)
@@ -546,7 +546,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig18)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
 	   <b>Nota Técnica</b>:<br><br>
        &emsp;&emsp;O indicador é o mesmo do gráfico anterior, apenas tratado com uma média móvel para suavizar a curva e permitir uma melhor visualização da trajetória e tendência da concentração de renda no Estado.
     	</p>
@@ -566,7 +566,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig22)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
     
 &emsp;&emsp;A proporção mede a <b>evolução da remuneração média real das mulheres que trabalham no setor formal da economia maranhense em relação a dos homens</b>. Portanto, a proporção não inclui os trabalhadores informais do Estado, que representam a grande maioria da ocupação. O indicador reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,96 em 2011 sugere que as mulheres, ocupadas no setor formal da economia, ganhavam 96% da remuneração média real dos homens. Já, a proporção de 0,78 em 2000 aponta que essas mesmas mulheres ganhavam 78% da remuneração média dos homens ocupados no setor formal, nesse ano. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do Ministério do Trabalho e Emprego.
@@ -588,7 +588,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig23)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;;text-align: justify;''>
 	   <b>Nota Técnica</b>:<br><br>
     <br>&emsp;&emsp;O <b>índice de desigualdade do setor formal da economia do Maranhão</b> acompanha, anualmente, a concentração de renda no Estado nos setores de ocupação formal. Portanto, ao contrário do primeiro gráfico de desigualdade, não se está considerando toda a ocupação, mas apenas a desigualdade entre os trabalhadores formais, individualmente. O indicador usado é o índice de Gini. Esse coeficiente assume valores que variam entre 0 e 1 e significa que os valores próximos a 0 representam que a estrutura da sociedade está próxima de uma igualdade em termos de renda. Já para valores próximos de 1, essa sociedade está próxima da desigualdade absoluta. Portanto, quanto mais próximo de 0, maior é a igualdade e quanto mais próximo de 1, maior é a desigualdade. Geralmente, o indicador é considerado elevado quando assume valores a partir de 0,45. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do Ministério do Trabalho e Emprego.
 	</p>
@@ -597,7 +597,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig17)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;'>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;;text-align: justify;''>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;A proporção mede a evolução do <b>rendimento médio real habitual das mulheres ocupadas em relação ao dos homens ocupados no Maranhão</b>. Portanto a proporção diz respeito a todos os rendimentos provenientes de toda as ocupações (formal e informal) e reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,94 no 2T2017 (segundo trimestre de 2017) sugere que as mulheres ocupadas ganhavam, nesse período, 94% da remuneração média real dos homens. Já, a proporção de 0,87 no 2T2023 (segundo trimestre de 2023) aponta que essas mesmas mulheres ganhavam 87% da remuneração média dos homens ocupados nesse trimestre. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do IBGE.	</p>
 	""", unsafe_allow_html=True)
