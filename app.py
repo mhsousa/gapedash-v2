@@ -597,7 +597,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig17)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;;text-align: justify;''>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;A proporção mede a evolução do <b>rendimento médio real habitual das mulheres ocupadas em relação ao dos homens ocupados no Maranhão</b>. Portanto a proporção diz respeito a todos os rendimentos provenientes de toda as ocupações (formal e informal) e reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,94 no 2T2017 (segundo trimestre de 2017) sugere que as mulheres ocupadas ganhavam, nesse período, 94% da remuneração média real dos homens. Já, a proporção de 0,87 no 2T2023 (segundo trimestre de 2023) aponta que essas mesmas mulheres ganhavam 87% da remuneração média dos homens ocupados nesse trimestre. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do IBGE.	</p>
 	""", unsafe_allow_html=True)
