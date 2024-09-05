@@ -546,7 +546,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig18)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
+	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
        &emsp;&emsp;O indicador é o mesmo do gráfico anterior, apenas tratado com uma média móvel para suavizar a curva e permitir uma melhor visualização da trajetória e tendência da concentração de renda no Estado.
     	</p>
@@ -568,8 +568,7 @@ with tab4:
     st.markdown("""
 	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
-    
-&emsp;&emsp;A proporção mede a <b>evolução da remuneração média real das mulheres que trabalham no setor formal da economia maranhense em relação a dos homens</b>. Portanto, a proporção não inclui os trabalhadores informais do Estado, que representam a grande maioria da ocupação. O indicador reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,96 em 2011 sugere que as mulheres, ocupadas no setor formal da economia, ganhavam 96% da remuneração média real dos homens. Já, a proporção de 0,78 em 2000 aponta que essas mesmas mulheres ganhavam 78% da remuneração média dos homens ocupados no setor formal, nesse ano. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do Ministério do Trabalho e Emprego.
+		&emsp;&emsp;A proporção mede a <b>evolução da remuneração média real das mulheres que trabalham no setor formal da economia maranhense em relação a dos homens</b>. Portanto, a proporção não inclui os trabalhadores informais do Estado, que representam a grande maioria da ocupação. O indicador reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,96 em 2011 sugere que as mulheres, ocupadas no setor formal da economia, ganhavam 96% da remuneração média real dos homens. Já, a proporção de 0,78 em 2000 aponta que essas mesmas mulheres ganhavam 78% da remuneração média dos homens ocupados no setor formal, nesse ano. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do Ministério do Trabalho e Emprego.
      </p>
 	""", unsafe_allow_html=True)
 
