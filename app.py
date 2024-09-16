@@ -17,6 +17,17 @@ im1,im2,im3,im4,im5, im6, im7, im8, im9=st.columns(9)
 #with im4:
 #	st.image("gape.png", width=400)
 
+st.markdown(
+    """
+    <style>
+    .stTab {
+        font-family: Candara;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade", "• Dados de Referência"])
 #tab1.subheader("Inflação")
 #tab2.subheader("Emprego")
