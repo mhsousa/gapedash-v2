@@ -84,7 +84,7 @@ with tab1:
     st.divider()
     st.plotly_chart(fig13)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br> &emsp;&emsp;A <b>inflação mensal</b> é calculada pelo IBGE (Instituto Brasileiro de Geografia e Estatística) por meio do Índice Nacional de Preços ao Consumidor Amplo – IPCA e reflete uma aproximação ao custo de vida mensal da cidade de São Luís, por meio da variação de preços dos grupos de despesas relacionados a alimentação e bebidas, habitação, artigos de residência, vestuário, transportes, saúde e cuidados pessoais, despesas pessoais, educação e comunicação. A curva tracejada azul indica a média da inflação para São Luís, considerando toda a série temporal neste gráfico, iniciada em janeiro de 2020.
 	</p>
 	""", unsafe_allow_html=True)
@@ -105,7 +105,7 @@ with tab1:
     st.plotly_chart(fig15)
 
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>&emsp;&emsp;O <b>impacto das despesas de habitação na inflação</b> em São Luís, mede o quanto dos gastos relacionados à habitação, como aluguel, reparos e reformas, taxa de água e esgoto, artigos de limpeza, combustíveis, energia, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto da despesa de habitação, em fevereiro de 2024, foi de 0,26 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 25% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos a habitação ou, de outra maneira, que da inflação de fevereiro desse ano (1,03%), 0,26 p.p. foi relativo às despesas com habitação. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
 	</p>
 	""", unsafe_allow_html=True)
@@ -126,7 +126,7 @@ with tab1:
     st.divider()
     st.plotly_chart(fig14)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>&emsp;&emsp;O <b>impacto das despesas com saúde e cuidados pessoais na inflação</b> em São Luís, mede o quanto dos gastos com cuidados pessoais, como produtos farmacêuticos, analgésicos, antigripais, antibióticos, vitaminas, óculos de grau, planos de saúde, serviços médicos, dentistas, exames, produtos de higiene pessoal, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto dos gastos com cuidados pessoais, em dezembro de 2022, foi de 0,35 p.p. (pontos percentuais) e a inflação do mês foi de 0,77%, isso significa que 45,45% da inflação de dezembro desse ano foi puxada pelos gastos relativos aos cuidados pessoais ou, de outra maneira, que da inflação de dezembro de 2022 (0,77%), 0,35 p.p. foi relativo às despesas com cuidados pessoais. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
     </p>
 	""", unsafe_allow_html=True)
@@ -147,7 +147,7 @@ with tab1:
     st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br> &emsp;&emsp;O <b>impacto das despesas de transporte na inflação</b> em São Luís, mede o quanto dos gastos relacionados aos transportes, como ônibus urbano, táxi, passagem aérea, transporte por aplicativo, automóvel novo, emplacamento e licença, seguros, pneus, gasolina, diesel, estacionamento, etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto da despesa de transporte, em fevereiro de 2024, foi de 0,30 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 29,12% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos aos transportes ou, de outra maneira, que da inflação de fevereiro (1,03%), 0,30 p.p. foi relativo às despesas com transportes. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
     </p>
 	""", unsafe_allow_html=True)
@@ -166,7 +166,7 @@ with tab1:
     st.divider()
     st.plotly_chart(fig19)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br> &emsp;&emsp;O <b>impacto das despesas com Alimentação e Bebidas na inflação</b> em São Luís, mede o quanto dos gastos com alimentação no domicílio, como cereais, leguminosas, feijão, arroz, farinha, milho, frutas, carnes, aves e ovos, bebidas e infusões, enlatados e conservas, tubérculos, etc., bem como os gastos com alimentação fora do domicílio, como refeições, lanches, cafezinhos, cervejas, sorvetes, vinhos, doces, refrigerantes e etc. impactaram diretamente a inflação do mês. Assim, por exemplo, se o impacto dos gastos com alimentação e bebidas, em fevereiro de 2024, foi de 0,15 p.p. (pontos percentuais) e a inflação do mês foi de 1,03%, isso significa que 14,5% da inflação de fevereiro de 2024 foi puxada pelos gastos relativos à alimentação dos ludovicenses, ou, de outra maneira, que da inflação de fevereiro desse ano (1,03%), 0,15 p.p. foi relativo às despesas com alimentação e bebidas. A curva tracejada azul indica a média do impacto, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do IBGE.
 	</p>
 	""", unsafe_allow_html=True)
@@ -336,7 +336,7 @@ with tab2:
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
    
     st.markdown("""
-    <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+    <p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
     <br>&emsp;&emsp;A maioria dos indicadores de empregos apresentados aqui se refere à <b>demanda de empregos das empresas</b> no Maranhão, aferida anualmente. Há indicadores que apuram a <b>taxa bruta de criação</b> de postos de trabalho, bem como a <b>taxa bruta de destruição</b> de postos de trabalho. Por consequência, apuramos, também, a <b>taxa de variação líquida de empregos</b> criados ou destruídos (diferença entre o número de postos de trabalhos criados e destruídos). Os indicadores se referem ao nível agregado da demanda por empregos das empresas no Maranhão. Há, ainda, o indicador da variação líquida da demanda por empregos das firmas para os principais setores da atividade econômica do Estado. Ao final, disponibilizamos o índice que permite o acompanhamento da “Taxa de Desemprego Real” do Estado.
 		</p>
 	""", unsafe_allow_html=True)
@@ -345,12 +345,12 @@ with tab2:
     with a1:
 	    st.plotly_chart(fig3)
 	    st.markdown("""
-	     <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	     <p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	      <b>Nota Técnica</b>:<br><br>&emsp;&emsp;Os indicadores de emprego descritos aqui se referem à demanda das empresas por <b>empregos formais</b> e são definidos a partir de três fluxos: os fluxos de criação bruta de emprego (JC – da sigla em inglês para <i>job creation</i>), que exprimem os novos postos de trabalho criados pelas firmas; os fluxos de destruição bruta de emprego (JD – da sigla em inglês para <i>job destruction</i>), que exprimem os postos de trabalho fechados pelas empresas; e a variação líquida de empregos (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de -8,46 em 2016 no Maranhão significa que, neste ano, o Estado teve destruição líquida de postos de trabalho de 8,46% em relação à média do estoque (E) de empregos do ano atual e o anterior (E=Et+Et-1/2); o que significa que o número de postos de trabalho fechados foi superior ao de postos de trabalho criados. A curva tracejada azul indica a taxa média da variação líquida de postos de trabalhos, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis e John Haltiwanger em Handbook of Labor Economics</i>, <b>1999</b>. </p>""", unsafe_allow_html=True)
     with a2:
 	    st.plotly_chart(fig)
 	    st.markdown("""
-	    <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	    <p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	    <b>Nota Técnica</b>:<br><br>&emsp;&emsp;O indicador mede os fluxos de criação bruta de emprego formal (JC – da sigla em inglês para <i>job creation) </i>, que exprimem os novos postos de trabalho criados pelas firmas, sem considerar os postos fechados ou destruídos pelas empresas, do ponto de vista agregado. Por exemplo, a JC de 11,42% em 2018, no Maranhão, significa que o Estado, neste ano, criou 11,42% postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), o que significa que o número bruto de postos de trabalho criados foi superior ao de postos de trabalho fechados. A curva tracejada azul indica a taxa média da criação bruta de empregos formais, considerando toda a série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows </i> proposta por <i>Steven J. Davis e John Haltiwanger em Handbook of Labor Economics</i>, <b>1999</b>.
      
 	    </p>
@@ -360,14 +360,14 @@ with tab2:
     with b1:
 	    st.plotly_chart(fig2)
 	    st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>&emsp;&emsp;O indicador mede os fluxos de destruição bruta de emprego formal (JD – da sigla em inglês para<i> job destruction</i>), que exprimem os novos postos de trabalho fechados pelas firmas, sem considerar os postos criados pelas empresas, do ponto de vista agregado. Por exemplo, a JD de 10,95% em 2018, no Maranhão, significa que o Estado, neste ano, destruiu 10,95% postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), o que significa que o número bruto de postos de trabalho destruídos, para esse ano, foi superior ao de postos de trabalho criados. A curva tracejada azul indica a taxa média da destruição bruta de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis e John Haltiwanger </i>em <i>Handbook of Labor Economics, </i> <b>1999</b>.</p>
  
 	""", unsafe_allow_html=True)
     with b2:
 	    st.plotly_chart(fig4)
 	    st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da indústria extrativa mineral, (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 0,06% em 2013 significa que o setor, neste ano, criou 0,06% postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor da indústria extrativa mineral criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -0,09 do ano de 2015, revela o contrário: que o setor destruiu mais portos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis</i> e <i>John Haltiwanger</i> em <i>Handbook of Labor Economics</i>, <b>1999</b>.
 	</p>
@@ -376,21 +376,21 @@ with tab2:
     with c1:
 	    st.plotly_chart(fig5)
 	    st.markdown("""
-              <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+              <p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	      <b>Nota Técnica</b>:<br><br>
        &emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da indústria de transformação, (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 0,82% em 2010 significa que o setor, nesse ano, criou 0,82% de postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -1,08 do ano de 2017, revela o contrário: que o setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i> Steven J. Davis</i>  e <i>John Haltiwanger</i>  em <i> Handbook of Labor Economics</i>, <b>1999</b>.
 	   </p>
 	     """, unsafe_allow_html=True)
     with c2:
 	    st.plotly_chart(fig6)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	    st.markdown("""<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>&emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da indústria de serviços industriais de utilidade pública (SIUP) (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 0,15% em 2008 significa que o setor, nesse ano, criou 0,15% de postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -0,01% do ano de 2018, revela o contrário: que o setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows </i>proposta por <i>Steven J. Davi</i>s e <i>John Haltiwanger</i> em <i>Handbook of Labor Economics</i>, <b>1999</b>.
 	 </p>
 	""", unsafe_allow_html=True)  
     d1,d2=st.columns(2)
     with d1:     
 	    st.plotly_chart(fig7)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	    st.markdown("""<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para net <i>employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da indústria de construção civil (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 2,64% em 2008 significa que o setor, nesse ano, criou 2,64% de postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -1,12% do ano de 2018, revela o contrário: que o setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis</i> e <i>John Haltiwanger em Handbook of Labor Economics</i>, <b>1999</b>.
 	 </p>
@@ -398,7 +398,7 @@ with tab2:
 	""", unsafe_allow_html=True)  
     with d2:
 	    st.plotly_chart(fig8)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	    st.markdown("""<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor do comércio (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 2,85% em 2010 significa que o setor, nesse ano, criou 2,85% de postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor do comércio criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -1,13% do ano de 2018, revela o contrário: que o setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis e John Haltiwanger</i> em <i>Handbook of Labor Economics</i>, <b>1999</b>.
 	</p>
@@ -406,13 +406,13 @@ with tab2:
     e1,e2=st.columns(2)
     with e1:
 	    st.plotly_chart(fig9)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	    st.markdown("""<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>&emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor de serviços (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 3,68% em 2011 significa que o setor, nesse ano, criou 3,68% de postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor de serviços criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -2,75% do ano de 2018, revela o contrário: que o setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davi</i> s e <i>John Haltiwanger em Handbook of Labor Economics, </i>  <b>1999</b>.
 	 </p>
 	""", unsafe_allow_html=True)  
     with e2:
 	    st.plotly_chart(fig10)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	    st.markdown("""<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da administração pública (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 11,90% em 2006 significa que o setor, nesse ano, criou 11,90% de postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor da administração pública criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -16,65% do ano de 2017, revela o contrário: que o setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis</i> e <i>John Haltiwanger em Handbook of Labor Economics</i>, <b>1999</b>.
 	</p>
@@ -421,7 +421,7 @@ with tab2:
     f1,f2=st.columns(2)
     with f1:
 	    st.plotly_chart(fig11)
-	    st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	    st.markdown("""<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;O indicador mede a variação líquida de empregos formais (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas do setor da agropecuária, extração vegetal, caça e pesca (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de 0,46% em 2003 significa que o setor, nesse ano, criou 0,46% de postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), já descontados os postos que esse mesmo setor fechou; o que significa que o setor da agropecuária, extração vegetal, caça e pesca criou mais empregos do que destruiu, nesse ano. Por outro lado, a NEG de -0,41% do ano de 2018, revela o contrário: que o setor destruiu mais postos de trabalho do que criou. A curva tracejada azul indica a taxa média da variação líquida de empregos formais, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis</i> e <i>John Haltiwanger</i> em <i>Handbook of Labor Economics</i>, <b>1999</b>.
 	</p>
@@ -429,7 +429,7 @@ with tab2:
     st.divider()
     st.plotly_chart(fig16)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;A <b>taxa de desemprego real</b> para o Maranhão refere-se à taxa combinada de desocupação e da força de trabalho potencial. A primeira é a relação entre o número de desocupados e a força de trabalho, a segunda é definida como o conjunto de pessoas de 14 anos ou mais de idade que não estavam ocupadas nem desocupadas, mas que possuíam potencial de comporem a força de trabalho. Assim, o indicador é a calculado como a razão entre os desocupados + força de trabalho potencial e a força de trabalho no Maranhão. A taxa é calculada pelo IBGE (Instituto Brasileiro de Geografia e Estatística) e esteve muito presente nas estatísticas por ocasião da crise do COVID-19, quando a usual taxa de desocupação deixou de refletir as dinâmicas do mercado de trabalho em função das medidas de restrição social, implementadas à época. Por refletir com mais acurácia a situação de desemprego da força de trabalho, utilizamos aqui como taxa real de desemprego. A curva tracejada azul indica a média da taxa de desemprego, considerando toda a série temporal.
 	</p>
@@ -441,7 +441,7 @@ with tab2:
 
 with tab3:
     st.markdown("""
-    <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+    <p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	<br>&emsp;&emsp;Nesta aba, apresentamos dois indicadores: a <b>evolução do rendimento médio real habitual da estrutura de ocupação</b> do Maranhão, que permite o acompanhamento, trimestral, da evolução do aumento da remuneração média real comparado ao primeiro trimestre de 2012; e a <b>evolução da proporção da remuneração média real</b> dos trabalhadores com nível superior em relação ao que possuem nível médio, que permite o acompanhamento anual da distância entre trabalhadores com perfis educacionais distintos, em termos de renda, no setor formal da economia maranhense.
 	</p>
 	""", unsafe_allow_html=True)
@@ -462,7 +462,7 @@ with tab3:
     st.divider()
     st.plotly_chart(fig12)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;''>
 	   <b>Nota Técnica</b>: <br><br>
     &emsp;&emsp;O <b>rendimento médio real</b> habitualmente recebido refere-se à remuneração recebida por todos os trabalhos feitos pelas pessoas ocupadas de 14 anos ou mais no Maranhão, em termos reais, ou seja, considerando a evolução do poder de compra (descontando a inflação). Transformou-se o valor do rendimento em um número índice com base no primeiro trimestre de 2012 para poder visualizar a evolução do aumento real do rendimento ao longo do tempo. Por exemplo, o índice do 1T2023 (primeiro trimestre de 2023) igual a 124,61, sugere que o rendimento do maranhense, no primeiro trimestre de 2023, era, em termos reais, 24,61% maior do que no primeiro trimestre de 2012. Por outro lado, o índice do 2T2014 (segundo trimestre de 2014) igual a 96,16, significa dizer que o rendimento do maranhense, no segundo trimestre de 2014, era 3,84% (100 – 96,16) menor que o verificado no primeiro trimestre de 2012. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do IBGE.
 	</p>
@@ -498,7 +498,7 @@ with tab3:
     st.divider()
     st.plotly_chart(fig24)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;''>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;A proporção mede a <b>evolução da remuneração média real dos trabalhadores do setor formal da economia maranhense</b>, com instrução de nível superior, em relação aos trabalhadores que possuíam instrução de nível médio, desse mesmo setor. Por exemplo, em 2002 a proporção de 5,69 sugere que os trabalhadores do setor formal que possuíam nível superior ganhavam, em média, 5,69 vezes a mais que os trabalhadores que detinham apenas o nível médio de instrução, nesse mesmo setor. Já, em 2019, a proporção de 2,89 sugere que os trabalhadores com nível superior ganhavam, em média, cerca de 2,89 vezes a mais que os trabalhos de nível médio de instrução. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do Ministério do Trabalho e Emprego. 
     </p>
@@ -509,7 +509,7 @@ with tab3:
 
 with tab4:
     st.markdown("""
-    <p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+    <p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	<br>&emsp;&emsp;Nesta aba, monitoramos a desigualdade de renda no Estado do Maranhão por meio do índice de Gini e da distância no rendimento entre homens e mulheres. No primeiro caso, há dois indicadores: o primeiro índice monitora, trimestralmente, a evolução da desigualdade de renda domiciliar per capta, considerando <b>toda a estrutura da ocupação</b> no Maranhão; o segundo indicador monitora a desigualdade de renda individual no mercado de <b>trabalho formal</b>  do Estado. No segundo caso, também há dois indicadores: o primeiro índice monitora a evolução anual da remuneração média real das mulheres em relação aos homens no <b>mercado formal</b>  da economia maranhense; e o segundo índice acompanha, trimestralmente, a proporção do rendimento médio real das mulheres em relação ao dos homens, <b> considerando toda a estrutura de ocupação</b>  do estado.
 	</p>""", unsafe_allow_html=True)
     fig15 = go.Figure()
@@ -526,7 +526,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig15)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;''>
 	   <b>Nota Técnica</b>:<br><br>
     &emsp;&emsp;O <b>índice de desigualdade de renda do Maranhão</b> acompanha, trimestralmente, a concentração de renda no Estado e, portanto, mede a distância ou a diferença entre os que ganham mais e os que ganham menos. O indicador usado é o índice de Gini. Esse coeficiente assume valores que variam entre 0 e 1 e significa que os valores próximos a 0 representam que a estrutura da sociedade está próxima de uma igualdade em termos de renda. Já para valores próximos de 1, essa sociedade está próxima da desigualdade absoluta. Portanto, quanto mais próximo de 0, maior é a igualdade e quanto mais próximo de 1, maior é a desigualdade. Geralmente, o indicador é considerado elevado quando assume valores a partir de 0,45. Particularmente para o Maranhão, o índice foi calculado considerando o rendimento domiciliar per capta, que representa a relação entre o total dos rendimentos domiciliares nominais e o total dos moradores. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados da PNADC-Anual do IBGE.	</p>
 	""", unsafe_allow_html=True)
@@ -546,7 +546,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig18)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
        &emsp;&emsp;O indicador é o mesmo do gráfico anterior, apenas tratado com uma média móvel para suavizar a curva e permitir uma melhor visualização da trajetória e tendência da concentração de renda no Estado.
     	</p>
@@ -566,7 +566,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig22)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
 		&emsp;&emsp;A proporção mede a <b>evolução da remuneração média real das mulheres que trabalham no setor formal da economia maranhense em relação a dos homens</b>. Portanto, a proporção não inclui os trabalhadores informais do Estado, que representam a grande maioria da ocupação. O indicador reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,96 em 2011 sugere que as mulheres, ocupadas no setor formal da economia, ganhavam 96% da remuneração média real dos homens. Já, a proporção de 0,78 em 2000 aponta que essas mesmas mulheres ganhavam 78% da remuneração média dos homens ocupados no setor formal, nesse ano. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do Ministério do Trabalho e Emprego.
      </p>
@@ -587,7 +587,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig23)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;''>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;''>
 	   <b>Nota Técnica</b>:<br><br>
     <br>&emsp;&emsp;O <b>índice de desigualdade do setor formal da economia do Maranhão</b> acompanha, anualmente, a concentração de renda no Estado nos setores de ocupação formal. Portanto, ao contrário do primeiro gráfico de desigualdade, não se está considerando toda a ocupação, mas apenas a desigualdade entre os trabalhadores formais, individualmente. O indicador usado é o índice de Gini. Esse coeficiente assume valores que variam entre 0 e 1 e significa que os valores próximos a 0 representam que a estrutura da sociedade está próxima de uma igualdade em termos de renda. Já para valores próximos de 1, essa sociedade está próxima da desigualdade absoluta. Portanto, quanto mais próximo de 0, maior é a igualdade e quanto mais próximo de 1, maior é a desigualdade. Geralmente, o indicador é considerado elevado quando assume valores a partir de 0,45. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos microdados do Ministério do Trabalho e Emprego.
 	</p>
@@ -596,7 +596,7 @@ with tab4:
     st.divider()
     st.plotly_chart(fig17)
     st.markdown("""
-	<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
+	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br>
    	 &emsp;&emsp;A proporção mede a evolução do <b>rendimento médio real habitual das mulheres ocupadas em relação ao dos homens ocupados no Maranhão</b>. Portanto a proporção diz respeito a todos os rendimentos provenientes de toda as ocupações (formal e informal) e reflete a distância entre mulheres e homens, do ponto de vista da renda. Por exemplo, a proporção de 0,94 no 2T2017 (segundo trimestre de 2017) sugere que as mulheres ocupadas ganhavam, nesse período, 94% da remuneração média real dos homens. Já, a proporção de 0,87 no 2T2023 (segundo trimestre de 2023) aponta que essas mesmas mulheres ganhavam 87% da remuneração média dos homens ocupados nesse trimestre. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base nos dados do IBGE.	
     </p>
