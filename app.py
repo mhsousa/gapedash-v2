@@ -74,11 +74,6 @@ with tab1:
     fig13.add_trace(go.Scatter(x=inf_mens['Mês'], y=inf_mens["Inflação Mensal - Slz (%)"], name="Inflação Mensal (IPCA em %) de São Luís - MA."))
     fig13.update_yaxes(tickformat=".2f")
     fig13.update_layout(
-    config={
-        'modeBarButtonsToRemove': ['toImage', 'zoom2d', 'select2d', 'lasso2d', 'autoScale2d', 'hoverClosestCartesian', 'hoverCompareCartesian', 'toggleSpikes', 'resetScale2d', 'pan2d', 'zoomIn2d', 'zoomOut2d', 'editTrace', 'annotationEdit', 'eye', 'modeBar', 'select', 'lasso'],
-    }
-)
-    fig13.update_layout(
     title="Inflação Mensal (IPCA em %) de São Luís - MA.",
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
@@ -103,11 +98,6 @@ with tab1:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
-    fig15.update_layout(
-    config={
-        'modeBarButtonsToRemove': ['toImage', 'zoom2d', 'select2d', 'lasso2d', 'autoScale2d', 'hoverClosestCartesian', 'hoverCompareCartesian', 'toggleSpikes', 'resetScale2d', 'pan2d', 'zoomIn2d', 'zoomOut2d', 'editTrace', 'annotationEdit', 'eye', 'modeBar', 'select', 'lasso'],
-      }
-    )
     fig15.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig15,y_value=inf_mens["Habitação"].mean(),text=str(round(inf_mens["Habitação"].mean(),3)), line_color="blue",pos=0.1)
     fig15.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
@@ -130,11 +120,6 @@ with tab1:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
-    fig14.update_layout(
-    config={
-        'modeBarButtonsToRemove': ['toImage', 'zoom2d', 'select2d', 'lasso2d', 'autoScale2d', 'hoverClosestCartesian', 'hoverCompareCartesian', 'toggleSpikes', 'resetScale2d', 'pan2d', 'zoomIn2d', 'zoomOut2d', 'editTrace', 'annotationEdit', 'eye', 'modeBar', 'select', 'lasso'],
-   	 }
-	)
     fig14.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig14.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     add_hline_with_annotation(fig14,y_value=inf_mens["Saúde e cuidados pessoais"].mean(),text=str(round(inf_mens["Saúde e cuidados pessoais"].mean(),3)), line_color="blue",pos=0.05)
