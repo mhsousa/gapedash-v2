@@ -22,17 +22,19 @@ st.markdown("""
 
 	.stTabs [data-baseweb="tab-list"] {
 		gap: 2px;
+  		font-family:Candara
     }
 
 	.stTabs [data-baseweb="tab"] {
 		height: 50px;
+  		font-family:Candara
         white-space: pre-wrap;
 		background-color: #F0F2F6;
 		border-radius: 4px 4px 0px 0px;
 		gap: 1px;
 		padding-top: 10px;
 		padding-bottom: 10px;
-  		font-family:Candara
+  		
     }
 
 	
