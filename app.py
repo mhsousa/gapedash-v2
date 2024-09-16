@@ -41,7 +41,7 @@ st.markdown("""
 )
 
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs([st.markdown("<p>Inflação</p>"),"Emprego", "Renda", "Desigualdade", "• Dados de Referência"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs([st.markdown("Inflação","Emprego", "Renda", "Desigualdade", "• Dados de Referência"])
 
 #tab1.subheader("Inflação")
 #tab2.subheader("Emprego")
