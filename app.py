@@ -30,6 +30,7 @@ st.markdown(
 
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade", "• Dados de Referência"])
+st.tabs(["Inflação","Emprego", "Renda", "Desigualdade", "• Dados de Referência"])
 #tab1.subheader("Inflação")
 #tab2.subheader("Emprego")
 #tab3.subheader("Renda")
@@ -74,7 +75,7 @@ def add_hline_with_annotation(fig, y_value, text, line_color='red', line_dash='d
 
     return fig
 
-with tab1:
+with st.tab("Inflação"):
     st.markdown("""<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	 <br>&emsp;&emsp;Os indicadores sobre inflação, medidos pelo <b>IPCA (Índice de Preços ao Consumidor Amplo)</b> são, de maneira geral, uma aproximação ao custo de vida em São Luís. Além desse indicador tradicional, apurado pelo IBGE, calculamos o impacto dos principais grupos de despesas das famílias sobre a inflação mensal. Dessa forma, é possível apurar e acompanhar como as despesas com habitação, transporte, alimentação e cuidados pessoais afetam o nível agregado de preços na nossa cidade. </p>
 	
