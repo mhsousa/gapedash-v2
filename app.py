@@ -63,6 +63,13 @@ def add_hline_with_annotation(fig, y_value, text, line_color='red', line_dash='d
     return fig
 
 with tab1:
+    st.markdown("""
+    <style>
+    p {
+    	font-family: Candara,
+    }
+    </style>
+    """)
     st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	 <br>&emsp;&emsp;Os indicadores sobre inflação, medidos pelo <b>IPCA (Índice de Preços ao Consumidor Amplo)</b> são, de maneira geral, uma aproximação ao custo de vida em São Luís. Além desse indicador tradicional, apurado pelo IBGE, calculamos o impacto dos principais grupos de despesas das famílias sobre a inflação mensal. Dessa forma, é possível apurar e acompanhar como as despesas com habitação, transporte, alimentação e cuidados pessoais afetam o nível agregado de preços na nossa cidade. </p>
 	
@@ -78,8 +85,6 @@ with tab1:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
-    fig13.update_layout(config={'displayModeBar': False})
-
     fig13.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig13.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig13,y_value=inf_mens["Inflação Mensal - Slz (%)"].mean(),text="%.3f" % round(inf_mens["Inflação Mensal - Slz (%)"].mean(),3), line_color="blue", pos=0.2)
