@@ -23,8 +23,7 @@ st.markdown("""
 	.stTabs {
 	        font-family: Candara;
 	    }
-
-	.stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p  [data-baseweb="tab"] {
+	 .stApp div.stTab  {
   		font-family:Candara}
         white-space: pre-wrap;
 		border-radius: 4px 4px 0px 0px;
