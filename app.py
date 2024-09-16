@@ -346,7 +346,7 @@ with tab2:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
-    fgi16.update_layout(title_font=dict( family="Candara",size=18, color="black"))
+    fig16.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig16.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     fig16.update_yaxes(title_text="")
     add_hline_with_annotation(fig16,y_value=desoc["Percentual"].mean(),text=str(round(desoc["Percentual"].mean(),3)), line_color="blue", pos=1)
