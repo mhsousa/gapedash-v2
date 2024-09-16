@@ -69,7 +69,7 @@ with tab1:
     	font-family: Candara,
     }
     </style>
-    """)
+    """, unsafe_allow_html=True)
     st.markdown("""<p style='font-family: Arial, sans-serif; font-size: 16px;text-align: justify;'>
 	 <br>&emsp;&emsp;Os indicadores sobre inflação, medidos pelo <b>IPCA (Índice de Preços ao Consumidor Amplo)</b> são, de maneira geral, uma aproximação ao custo de vida em São Luís. Além desse indicador tradicional, apurado pelo IBGE, calculamos o impacto dos principais grupos de despesas das famílias sobre a inflação mensal. Dessa forma, é possível apurar e acompanhar como as despesas com habitação, transporte, alimentação e cuidados pessoais afetam o nível agregado de preços na nossa cidade. </p>
 	
