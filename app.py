@@ -99,6 +99,7 @@ with tab1:
     font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
+    fig15.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig15.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig15,y_value=inf_mens["Habitação"].mean(),text=str(round(inf_mens["Habitação"].mean(),3)), line_color="blue",pos=0.1)
     fig15.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
@@ -122,6 +123,7 @@ with tab1:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig14.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig14.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig14.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     add_hline_with_annotation(fig14,y_value=inf_mens["Saúde e cuidados pessoais"].mean(),text=str(round(inf_mens["Saúde e cuidados pessoais"].mean(),3)), line_color="blue",pos=0.05)
     st.divider()
@@ -143,6 +145,7 @@ with tab1:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig16.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig16.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig16.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     add_hline_with_annotation(fig16,y_value=inf_mens["Transportes"].mean(),text=str(round(inf_mens["Transportes"].mean(),3)), line_color="blue",pos=0.15)    
     st.divider()
@@ -162,6 +165,7 @@ with tab1:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig19.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
+    fig19.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig19.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     add_hline_with_annotation(fig19,y_value=inf_mens["Alimentação e bebidas"].mean(),text=str(round(inf_mens["Alimentação e bebidas"].mean(),3)), line_color="blue",pos=0.15)    
     st.divider()
