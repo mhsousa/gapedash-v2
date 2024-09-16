@@ -346,15 +346,14 @@ with tab2:
 		</p>
 	""", unsafe_allow_html=True)
     st.divider()
-    a1,a2=st.columns(2)
-    with a1:
-	    st.plotly_chart(fig3)
-	    st.markdown("""
+    
+    st.plotly_chart(fig3)
+    st.markdown("""
 	     <p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	      <b>Nota Técnica</b>:<br><br>&emsp;&emsp;Os indicadores de emprego descritos aqui se referem à demanda das empresas por <b>empregos formais</b> e são definidos a partir de três fluxos: os fluxos de criação bruta de emprego (JC – da sigla em inglês para <i>job creation</i>), que exprimem os novos postos de trabalho criados pelas firmas; os fluxos de destruição bruta de emprego (JD – da sigla em inglês para <i>job destruction</i>), que exprimem os postos de trabalho fechados pelas empresas; e a variação líquida de empregos (NEG – da sigla em inglês para <i>net employment growth</i>), que reflete a taxa da variação líquida dos postos de trabalho criados ou destruídos pelas firmas (ou seja, representa a diferença entre os postos de trabalho criados e destruídos, resultando numa criação ou destruição líquida de postos de trabalho). Por exemplo, a NEG de -8,46 em 2016 no Maranhão significa que, neste ano, o Estado teve destruição líquida de postos de trabalho de 8,46% em relação à média do estoque (E) de empregos do ano atual e o anterior (E=Et+Et-1/2); o que significa que o número de postos de trabalho fechados foi superior ao de postos de trabalho criados. A curva tracejada azul indica a taxa média da variação líquida de postos de trabalhos, considerando toda a série temporal. A aferição é feita pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows</i> proposta por <i>Steven J. Davis e John Haltiwanger em Handbook of Labor Economics</i>, <b>1999</b>. </p>""", unsafe_allow_html=True)
-    with a2:
-	    st.plotly_chart(fig)
-	    st.markdown("""
+
+    st.plotly_chart(fig)
+    st.markdown("""
 	    <p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	    <b>Nota Técnica</b>:<br><br>&emsp;&emsp;O indicador mede os fluxos de criação bruta de emprego formal (JC – da sigla em inglês para <i>job creation) </i>, que exprimem os novos postos de trabalho criados pelas firmas, sem considerar os postos fechados ou destruídos pelas empresas, do ponto de vista agregado. Por exemplo, a JC de 11,42% em 2018, no Maranhão, significa que o Estado, neste ano, criou 11,42% postos de trabalho a mais em relação à média do estoque (E) de empregos do ano em tela e o anterior (E=Et+Et-1/2), o que significa que o número bruto de postos de trabalho criados foi superior ao de postos de trabalho fechados. A curva tracejada azul indica a taxa média da criação bruta de empregos formais, considerando toda a série temporal. O cálculo para aferição é feito pelo GAPE – Grupo de Análise da Política Econômica do PPGDSE – Programa de Pós-Graduação em Desenvolvimento Socioeconômico, da UFMA, com base na metodologia <i>Gross Job Flows </i> proposta por <i>Steven J. Davis e John Haltiwanger em Handbook of Labor Economics</i>, <b>1999</b>.
      
