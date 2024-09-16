@@ -17,12 +17,12 @@ im1,im2,im3,im4,im5, im6, im7, im8, im9=st.columns(9)
 #with im4:
 #	st.image("gape.png", width=400)
 
-st.markdown(
+st.markdown("""
   <style>
     .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
     'font-family: Candara, sans-serif; 
     }
-</style>,
+</style>""",
     unsafe_allow_html=True
 )
 
