@@ -474,12 +474,12 @@ with tab3:
 
     fig17 = px.line(rend_hab, x='Trimestre', y="Proporção do Rendimento das Mulheres em relação aos Homens")
     fig17.update_yaxes(tickformat=".2f")
-    fig17.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig17.update_layout(yaxis_title="",)
     fig17.update_layout(title="Evolução da proporção do Rendimento Médio Real das Mulheres em relação ao dos Homens no Maranhão.", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig17.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig17,y_value=rend_hab["Proporção do Rendimento das Mulheres em relação aos Homens"].mean(),text=str(round(rend_hab['Proporção do Rendimento das Mulheres em relação aos Homens'].mean(),3)), line_color="blue", pos=0.02)
     fig17.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    fig17.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig17.update_layout( 
         yaxis2=dict(
             overlaying='y',
@@ -490,11 +490,11 @@ with tab3:
     fig24 = px.line(rend_e_des, x='Ano', y="S/M")
     fig24.update_yaxes(tickformat=".2f")
     fig24.update_layout(yaxis_title="",)
-    fig24.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig24.update_layout(title="Proporção da Remuneração Média Real dos Trabalhadores com Ensino Superior em relação aos que possuem Ensino Médio – Setor Formal (MA)", font=dict(family="Courier New, monospace", size=12, color="#7f7f7f"),legend=dict(x=0, y=1, orientation='h'))
     fig24.update_xaxes(title_text="Trimestre", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig24,y_value=rend_e_des["S/M"].mean(),text=str(round(rend_e_des['S/M'].mean(),3)), line_color="blue", pos=1)
     fig24.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
+    fig24.update_layout(title_font=dict( family="Candara",size=18, color="black"))
     fig24.update_layout( 
         yaxis2=dict(
             overlaying='y',
