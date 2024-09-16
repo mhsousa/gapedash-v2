@@ -20,10 +20,7 @@ im1,im2,im3,im4,im5, im6, im7, im8, im9=st.columns(9)
 st.markdown("""
   <style>
 
-	.stTabs [data-baseweb="tab-list"] {
-		gap: 2px;
-  		font-family:Candara
-    }
+
 
 	.stTabs [data-baseweb="tab"] {
 		height: 50px;
@@ -34,6 +31,7 @@ st.markdown("""
 		gap: 1px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+  		font-family:Candara
   		
     }
 
