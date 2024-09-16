@@ -19,9 +19,24 @@ im1,im2,im3,im4,im5, im6, im7, im8, im9=st.columns(9)
 
 st.markdown("""
   <style>
-    .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
-    'font-family: Candara, sans-serif; 
+
+	.stTabs [data-baseweb="tab-list"] {
+		gap: 2px;
     }
+
+	.stTabs [data-baseweb="tab"] {
+		height: 50px;
+        white-space: pre-wrap;
+		background-color: #F0F2F6;
+		border-radius: 4px 4px 0px 0px;
+		gap: 1px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+  		font-family:Candara
+    }
+
+	
+
 </style>""",
     unsafe_allow_html=True
 )
