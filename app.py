@@ -104,12 +104,12 @@ with tab1:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig13.update_layout(title_font=dict( family="Candara",size=18, color="black"))
-    fig13.update_layout( modebar_remove=['toggleFullscreen'])
+  
     fig13.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig13.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig13,y_value=inf_mens["Inflação Mensal - Slz (%)"].mean(),text="%.3f" % round(inf_mens["Inflação Mensal - Slz (%)"].mean(),3), line_color="blue", pos=0.2)
     st.divider()
-    st.plotly_chart(fig13, use_container_width=True, config={'scrollZoom': True})
+    st.plotly_chart(fig13, use_container_width=True, config={'scrollZoom': True,'modeBarButtonsToRemove': ['toggleFullscreen']})
     st.markdown("""
 	<p style='font-family: Candara, sans-serif; font-size: 16px;text-align: justify;'>
 	   <b>Nota Técnica</b>:<br><br> &emsp;&emsp;A <b>inflação mensal</b> é calculada pelo IBGE (Instituto Brasileiro de Geografia e Estatística) por meio do Índice Nacional de Preços ao Consumidor Amplo – IPCA e reflete uma aproximação ao custo de vida mensal da cidade de São Luís, por meio da variação de preços dos grupos de despesas relacionados a alimentação e bebidas, habitação, artigos de residência, vestuário, transportes, saúde e cuidados pessoais, despesas pessoais, educação e comunicação. A curva tracejada azul indica a média da inflação para São Luís, considerando toda a série temporal neste gráfico, iniciada em janeiro de 2020.
