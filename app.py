@@ -104,7 +104,7 @@ with tab1:
     margin=dict(l=50, r=50, b=100, t=100, pad=4),
     legend=dict(x=0, y=1, orientation='h'))
     fig13.update_layout(title_font=dict( family="Candara",size=18, color="black"))
-    fig13.update_layout( modebar_remove=['zoom', 'pan', 'select', 'lasso', 'zoomIn', 'zoomOut', 'autoScale', 'hoverClosest', 'toggleSpikes', 'resetScale', 'hoverCompareCartesian', 'hoverCompareGL', 'toImage', 'sendDataToCloud', 'editInChartStudio', 'lasso2d', 'select2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d', 'hoverClosestCartesian', 'hoverCompareCartesian'])
+    fig13.update_layout( modebar_remove=['toggleFullscreen'])
     fig13.update_traces(mode='lines+markers', marker=dict(size=7, color='DarkSlateGrey'))
     fig13.update_xaxes(title_text="Mês", showgrid=True, gridwidth=1, gridcolor='LightPink')
     add_hline_with_annotation(fig13,y_value=inf_mens["Inflação Mensal - Slz (%)"].mean(),text="%.3f" % round(inf_mens["Inflação Mensal - Slz (%)"].mean(),3), line_color="blue", pos=0.2)
