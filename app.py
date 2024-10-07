@@ -40,16 +40,16 @@ st.markdown("""
     unsafe_allow_html=True
 )
 
-hide_custom_fullscreen_button = """
+hide_fullscreen_button = """
     <style>
-    .nedrag.drag.cursor-ne-resize {
+    .modebar-btn[data-title="Fullscreen"] {
         display: none;
     }
     </style>
     """
 
 # Aplicando o estilo no Streamlit
-st.markdown(hide_custom_fullscreen_button, unsafe_allow_html=True)
+st.markdown(hide_fullscreen_button, unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Inflação","Emprego", "Renda", "Desigualdade", "• Dados de Referência"])
 
