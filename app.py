@@ -11,11 +11,10 @@ st.set_page_config(
         
 	initial_sidebar_state = 'collapsed' 
 )
-im1,im2,im3,im4,im5, im6, im7, im8, im9=st.columns(9)
 
 
-#with im4:
-#	st.image("gape.png", width=400)
+
+
 
 st.markdown("""
   <style>
