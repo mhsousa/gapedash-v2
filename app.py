@@ -28,8 +28,6 @@ st.markdown("""
         white-space: pre-wrap;
 		border-radius: 4px 4px 0px 0px;
 		gap: 1px;
-		padding-top: 10px;
-		padding-bottom: 10px;
   		font-family:Candara
   		
     }
